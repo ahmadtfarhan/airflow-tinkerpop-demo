@@ -1,6 +1,7 @@
 from datetime import datetime
 import logging
-from airflow.sdk import asset, dag, task
+from airflow.sdk import dag, task
+from airflow.sdk import Asset
 
 from airflow.providers.mysql.hooks.mysql import MySqlHook
 from airflow.providers.apache.tinkerpop.hooks.gremlin import GremlinHook
@@ -30,7 +31,7 @@ def mysql_to_gremlin():
         df['movie'] = df['movie'].astype(str)
         return df
     
-    @task
+    @task(outlets=[Asset("batch_extraction")])
     def load_to_gremlin(df):
         gremlin_hook = GremlinHook(conn_id='gremlin_default')
         for _, row in df.iterrows():
