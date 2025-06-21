@@ -22,23 +22,26 @@ def mysql_to_gremlin():
     @task
     def extract_mysql_data():
         mysql_hook = MySqlHook(mysql_conn_id='mysql_default')
-        sql = "SELECT id, movie FROM testtable"
+        sql = "SELECT id, type, name, year FROM movies"
         return mysql_hook.get_pandas_df(sql)
 
     @task
     def transform_data(df):
         df['id'] = df['id'].astype(str)
-        df['movie'] = df['movie'].astype(str)
+        df['type'] = df['type'].astype(str)
+        df['name'] = df['name'].astype(str)
+        df['year'] = df['year'].astype(int)
         return df
     
     @task(outlets=[Asset("batch_extraction")])
     def load_to_gremlin(df):
-        gremlin_hook = GremlinHook(conn_id='gremlin_default')
+        gremlin_hook = GremlinHook(conn_id='gremlin')
         for _, row in df.iterrows():
             gremlin_query = (
-                f"g.addV('movie')"
+                f"g.addV('{row['type']}')"
                 f".property('id', '{row['id']}')"
-                f".property('name', '{row['movie']}')"
+                f".property('name', '{row['name']}')"
+                f".property('year', '{row['year']}')"
             )
             gremlin_hook.run(gremlin_query)
         logging.info("Data loaded to Gremlin successfully.")
