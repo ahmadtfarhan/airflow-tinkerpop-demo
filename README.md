@@ -5,7 +5,6 @@ This project demonstrates how to use Apache Airflow to build a data pipeline tha
 ## Prerequisites
 
 - Docker
-- Docker Compose
 
 ## Setup
 
@@ -40,9 +39,15 @@ After starting the services, you need to configure the connections and populate 
 
 1.  **Run the setup script:**
     This script handles setting up Airflow connections and populating the Gremlin graph.
-    ```bash
-    ./setup-connections.sh
-    ```
+
+    - On Linux/Mac:
+      ```bash
+      ./setup-connections.sh
+      ```
+    - On Windows (PowerShell):
+      ```powershell
+      .\setup-connections.ps1
+      ```
 
 2.  **Populate the MySQL database:**
     This command loads the sample movie data into the MySQL database.
