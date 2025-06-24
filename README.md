@@ -51,16 +51,22 @@ After starting the services, you need to configure the connections and populate 
 
 2.  **Populate the MySQL database:**
     This command loads the sample movie data into the MySQL database.
-    ```bash
-    docker-compose exec -T mysqldb mysql -vvv -u user -p'password' test_db < sql/movies.sql
-    ```
+    - **On Linux/Mac:**
+      ```bash
+      docker-compose exec -T mysqldb mysql -vvv -u user -p'password' test_db < sql/movies.sql
+      ```
+    - **On Windows (PowerShell):**
+      ```powershell
+      Get-Content .\sql\movies.sql | docker-compose exec -T mysqldb mysql -vvv -u user -p'password' test_db
+      ```
 
 ## Running the DAG
 
-1. In the Airflow UI, go to the **DAGs** page.
-2. You should see the `mysql_to_gremlin` DAG.
-3. Enable the DAG by clicking the toggle button.
-4. The DAG is scheduled to run hourly, but you can trigger it manually by clicking the "play" button.
+1. In the Airflow UI (usually at [http://localhost:8080](http://localhost:8080)), go to the **DAGs** page.
+2. Unpause the `extract_gremlin_data.py` DAG if it is paused by clicking the toggle button.
+3. You should see the `mysql_to_gremlin` DAG.
+4. Enable the DAG by clicking the toggle button.
+5. The DAG is scheduled to run hourly, but you can trigger it manually by clicking the "play" button.
 
 ## Stopping the project
 
