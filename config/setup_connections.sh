@@ -6,6 +6,5 @@ airflow db check --retry 30 --retry-delay 5
 
 # Add Airflow connections
 # These commands add the necessary connections for the DAGs to run.
-# Using `--if-exists-replace` makes the script idempotent, meaning it can be run multiple times without causing errors.
 airflow connections add 'gremlin' --conn-uri 'ws://mylogin:mysecret@host.docker.internal:8182/gremlin'
 airflow connections add 'mysql_default' --conn-uri 'mysql://root:password@host.docker.internal:3306/test_db'
