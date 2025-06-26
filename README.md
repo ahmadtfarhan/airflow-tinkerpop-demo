@@ -4,7 +4,9 @@ This project demonstrates how to use Apache Airflow to build a data pipeline tha
 
 ## Prerequisites
 
-- Docker
+- Docker Desktop
+- Python 3.10+
+- IDE (VS Code, PyCharm,...etc)
 
 ## Setup
 
