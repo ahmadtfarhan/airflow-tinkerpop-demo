@@ -29,7 +29,7 @@ docker-compose up --build -d
 ```
 
 This will start the following services:
-- Airflow (scheduler, worker, webserver)
+- Airflow (scheduler, worker, API server, dagProcessor)
 - PostgreSQL (Airflow metadata database)
 - Redis (Airflow Celery broker)
 - MySQL (data source)
