@@ -44,11 +44,11 @@ After starting the services, you need to configure the connections and populate 
 
     - On Linux/Mac:
       ```bash
-      ./setup-connections.sh
+      ./setup-demo.sh
       ```
     - On Windows (PowerShell):
       ```powershell
-      .\setup-connections.ps1
+      .\setup-demo.ps1
       ```
 
 2.  **Populate the MySQL database:**
