@@ -83,3 +83,12 @@ If you want to remove the volumes as well, run:
 ```bash
 docker-compose down -v
 ```
+
+## Contribution
+
+Feel free to Contribute to this repo by opening a PR.
+Also, you can create a PR for the Apache TinkerPop Provider on the [Airflow Repo](https://github.com/apache/airflow), and please feel free to tag my github user ([ahmadtfarhan](https://github.com/ahmadtfarhan)) for review!
+
+# Contact Details
+
+[LinkedIn](http://linkedin.com/in/atfarhan/)
