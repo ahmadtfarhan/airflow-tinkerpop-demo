@@ -15,4 +15,4 @@ while ! docker-compose ps | grep -q 'gremlin.*Up'; do
 done
 
 echo "Loading graph data..."
-docker-compose exec airflow-worker python /opt/airflow/gremlin-setup/movie.py --vertices-file /opt/airflow/gremlin-setup/vertices.csv --edges-file /opt/airflow/gremlin-setup/edges.csv 
+docker-compose exec airflow-worker bash -c "python /opt/airflow/gremlin-setup/load_crm_graph.py --vertices-file /opt/airflow/gremlin-setup/crm_vertices.csv --edges-file /opt/airflow/gremlin-setup/crm_edges.csv"
