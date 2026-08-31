@@ -1,0 +1,962 @@
+{
+ "C001": {
+  "id": "C001",
+  "label": "Customer",
+  "name": "Vinehall Systems",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C002": {
+  "id": "C002",
+  "label": "Customer",
+  "name": "Drakemoor Labs",
+  "props": {
+   "tier": "Free",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C003": {
+  "id": "C003",
+  "label": "Customer",
+  "name": "Quarry Lane Industries",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C004": {
+  "id": "C004",
+  "label": "Customer",
+  "name": "Ravensworth Labs",
+  "props": {
+   "tier": "Free",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C005": {
+  "id": "C005",
+  "label": "Customer",
+  "name": "Stonebridge Media",
+  "props": {
+   "tier": "Free",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C006": {
+  "id": "C006",
+  "label": "Customer",
+  "name": "Yarrow Analytics",
+  "props": {
+   "tier": "Pro",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C007": {
+  "id": "C007",
+  "label": "Customer",
+  "name": "Quarry Lane Consulting",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Churned"
+  }
+ },
+ "C008": {
+  "id": "C008",
+  "label": "Customer",
+  "name": "Kestrel Analytics",
+  "props": {
+   "tier": "Free",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C009": {
+  "id": "C009",
+  "label": "Customer",
+  "name": "Cedar Point Labs",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C010": {
+  "id": "C010",
+  "label": "Customer",
+  "name": "Saltmarsh Industries",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Churned"
+  }
+ },
+ "C011": {
+  "id": "C011",
+  "label": "Customer",
+  "name": "Wildergate Retail Group",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C012": {
+  "id": "C012",
+  "label": "Customer",
+  "name": "Linden Labs",
+  "props": {
+   "tier": "Free",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C013": {
+  "id": "C013",
+  "label": "Customer",
+  "name": "Greyloch Systems",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C014": {
+  "id": "C014",
+  "label": "Customer",
+  "name": "Saltmarsh Consulting",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C015": {
+  "id": "C015",
+  "label": "Customer",
+  "name": "Ironbark Systems",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Prospect"
+  }
+ },
+ "C016": {
+  "id": "C016",
+  "label": "Customer",
+  "name": "Vantage Industries",
+  "props": {
+   "tier": "Pro",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C017": {
+  "id": "C017",
+  "label": "Customer",
+  "name": "Chandler Labs",
+  "props": {
+   "tier": "Pro",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C018": {
+  "id": "C018",
+  "label": "Customer",
+  "name": "Isolde Industries",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C019": {
+  "id": "C019",
+  "label": "Customer",
+  "name": "Kirkwall Systems",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C020": {
+  "id": "C020",
+  "label": "Customer",
+  "name": "Wexford Analytics",
+  "props": {
+   "tier": "Free",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C021": {
+  "id": "C021",
+  "label": "Customer",
+  "name": "Silverline Consulting",
+  "props": {
+   "tier": "Free",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C022": {
+  "id": "C022",
+  "label": "Customer",
+  "name": "Larkspur Industries",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C023": {
+  "id": "C023",
+  "label": "Customer",
+  "name": "Verity Consulting",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C024": {
+  "id": "C024",
+  "label": "Customer",
+  "name": "Halcyon Retail Group",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C025": {
+  "id": "C025",
+  "label": "Customer",
+  "name": "Redwood Partners",
+  "props": {
+   "tier": "Free",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C026": {
+  "id": "C026",
+  "label": "Customer",
+  "name": "Yarrow Logistics",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C027": {
+  "id": "C027",
+  "label": "Customer",
+  "name": "Ravensworth Media",
+  "props": {
+   "tier": "Free",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C028": {
+  "id": "C028",
+  "label": "Customer",
+  "name": "Vinehall Partners",
+  "props": {
+   "tier": "Enterprise",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C029": {
+  "id": "C029",
+  "label": "Customer",
+  "name": "Halcyon Consulting",
+  "props": {
+   "tier": "Free",
+   "region": "UK",
+   "status": "Prospect"
+  }
+ },
+ "C030": {
+  "id": "C030",
+  "label": "Customer",
+  "name": "Ivyford Retail Group",
+  "props": {
+   "tier": "Free",
+   "region": "EU",
+   "status": "Churned"
+  }
+ },
+ "C031": {
+  "id": "C031",
+  "label": "Customer",
+  "name": "Inverness Consulting",
+  "props": {
+   "tier": "Free",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C032": {
+  "id": "C032",
+  "label": "Customer",
+  "name": "Whitfield Analytics",
+  "props": {
+   "tier": "Pro",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C033": {
+  "id": "C033",
+  "label": "Customer",
+  "name": "Jarrow Labs",
+  "props": {
+   "tier": "Enterprise",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C034": {
+  "id": "C034",
+  "label": "Customer",
+  "name": "Jarrow Logistics",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Churned"
+  }
+ },
+ "C035": {
+  "id": "C035",
+  "label": "Customer",
+  "name": "Nightingale Logistics",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C036": {
+  "id": "C036",
+  "label": "Customer",
+  "name": "Templeton Holdings",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Prospect"
+  }
+ },
+ "C037": {
+  "id": "C037",
+  "label": "Customer",
+  "name": "Hollowell Retail Group",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Prospect"
+  }
+ },
+ "C038": {
+  "id": "C038",
+  "label": "Customer",
+  "name": "Netherby Consulting",
+  "props": {
+   "tier": "Free",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C039": {
+  "id": "C039",
+  "label": "Customer",
+  "name": "Marlowe Partners",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C040": {
+  "id": "C040",
+  "label": "Customer",
+  "name": "Inverness Partners",
+  "props": {
+   "tier": "Free",
+   "region": "UK",
+   "status": "Prospect"
+  }
+ },
+ "C041": {
+  "id": "C041",
+  "label": "Customer",
+  "name": "Thornfield Consulting",
+  "props": {
+   "tier": "Pro",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C042": {
+  "id": "C042",
+  "label": "Customer",
+  "name": "Blue Harbor Systems",
+  "props": {
+   "tier": "Free",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C043": {
+  "id": "C043",
+  "label": "Customer",
+  "name": "Hollowell Industries",
+  "props": {
+   "tier": "Free",
+   "region": "UK",
+   "status": "Prospect"
+  }
+ },
+ "C044": {
+  "id": "C044",
+  "label": "Customer",
+  "name": "Ravensworth Consulting",
+  "props": {
+   "tier": "Free",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C045": {
+  "id": "C045",
+  "label": "Customer",
+  "name": "Quillon Labs",
+  "props": {
+   "tier": "Free",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C046": {
+  "id": "C046",
+  "label": "Customer",
+  "name": "Stonebridge Retail Group",
+  "props": {
+   "tier": "Pro",
+   "region": "MENA",
+   "status": "Prospect"
+  }
+ },
+ "C047": {
+  "id": "C047",
+  "label": "Customer",
+  "name": "Tidewater Analytics",
+  "props": {
+   "tier": "Enterprise",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C048": {
+  "id": "C048",
+  "label": "Customer",
+  "name": "Coppersmith Logistics",
+  "props": {
+   "tier": "Free",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C049": {
+  "id": "C049",
+  "label": "Customer",
+  "name": "Jasperton Systems",
+  "props": {
+   "tier": "Free",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C050": {
+  "id": "C050",
+  "label": "Customer",
+  "name": "Ambleside Systems",
+  "props": {
+   "tier": "Free",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C051": {
+  "id": "C051",
+  "label": "Customer",
+  "name": "Thornfield Systems",
+  "props": {
+   "tier": "Free",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C052": {
+  "id": "C052",
+  "label": "Customer",
+  "name": "Netherby Analytics",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C053": {
+  "id": "C053",
+  "label": "Customer",
+  "name": "Coppersmith Retail Group",
+  "props": {
+   "tier": "Enterprise",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "C054": {
+  "id": "C054",
+  "label": "Customer",
+  "name": "Wildergate Partners",
+  "props": {
+   "tier": "Free",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C055": {
+  "id": "C055",
+  "label": "Customer",
+  "name": "Thornfield Labs",
+  "props": {
+   "tier": "Free",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C056": {
+  "id": "C056",
+  "label": "Customer",
+  "name": "Hawkridge Partners",
+  "props": {
+   "tier": "Free",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C057": {
+  "id": "C057",
+  "label": "Customer",
+  "name": "Eastgate Retail Group",
+  "props": {
+   "tier": "Free",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C058": {
+  "id": "C058",
+  "label": "Customer",
+  "name": "Corvus Retail Group",
+  "props": {
+   "tier": "Free",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C059": {
+  "id": "C059",
+  "label": "Customer",
+  "name": "Northwind Analytics",
+  "props": {
+   "tier": "Enterprise",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C060": {
+  "id": "C060",
+  "label": "Customer",
+  "name": "Everly Media",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C061": {
+  "id": "C061",
+  "label": "Customer",
+  "name": "Kestrel Holdings",
+  "props": {
+   "tier": "Free",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C062": {
+  "id": "C062",
+  "label": "Customer",
+  "name": "Ironbark Media",
+  "props": {
+   "tier": "Free",
+   "region": "MENA",
+   "status": "Active"
+  }
+ },
+ "C063": {
+  "id": "C063",
+  "label": "Customer",
+  "name": "Greyloch Industries",
+  "props": {
+   "tier": "Enterprise",
+   "region": "MENA",
+   "status": "Churned"
+  }
+ },
+ "C064": {
+  "id": "C064",
+  "label": "Customer",
+  "name": "Kirkwall Holdings",
+  "props": {
+   "tier": "Pro",
+   "region": "UK",
+   "status": "Active"
+  }
+ },
+ "C065": {
+  "id": "C065",
+  "label": "Customer",
+  "name": "Ashford Holdings",
+  "props": {
+   "tier": "Enterprise",
+   "region": "UK",
+   "status": "Prospect"
+  }
+ },
+ "C066": {
+  "id": "C066",
+  "label": "Customer",
+  "name": "Dovetail Systems",
+  "props": {
+   "tier": "Enterprise",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C067": {
+  "id": "C067",
+  "label": "Customer",
+  "name": "Oakhaven Partners",
+  "props": {
+   "tier": "Free",
+   "region": "EU",
+   "status": "Prospect"
+  }
+ },
+ "C068": {
+  "id": "C068",
+  "label": "Customer",
+  "name": "Yarrow Media",
+  "props": {
+   "tier": "Enterprise",
+   "region": "EU",
+   "status": "Active"
+  }
+ },
+ "C069": {
+  "id": "C069",
+  "label": "Customer",
+  "name": "Eastgate Systems",
+  "props": {
+   "tier": "Enterprise",
+   "region": "US",
+   "status": "Prospect"
+  }
+ },
+ "C070": {
+  "id": "C070",
+  "label": "Customer",
+  "name": "Halcyon Logistics",
+  "props": {
+   "tier": "Pro",
+   "region": "US",
+   "status": "Active"
+  }
+ },
+ "R001": {
+  "id": "R001",
+  "label": "Resource",
+  "name": "Quarterly Revenue Folder",
+  "props": {
+   "resource_type": "Folder",
+   "sensitivity": "Internal"
+  }
+ },
+ "R002": {
+  "id": "R002",
+  "label": "Resource",
+  "name": "Customer Churn Project",
+  "props": {
+   "resource_type": "Project",
+   "sensitivity": "Public"
+  }
+ },
+ "R003": {
+  "id": "R003",
+  "label": "Resource",
+  "name": "Payroll Dataset",
+  "props": {
+   "resource_type": "Dataset",
+   "sensitivity": "Public"
+  }
+ },
+ "R004": {
+  "id": "R004",
+  "label": "Resource",
+  "name": "Supply Chain Dashboard",
+  "props": {
+   "resource_type": "Dashboard",
+   "sensitivity": "Confidential"
+  }
+ },
+ "R005": {
+  "id": "R005",
+  "label": "Resource",
+  "name": "Quarterly Revenue Report",
+  "props": {
+   "resource_type": "Folder",
+   "sensitivity": "Public"
+  }
+ },
+ "R006": {
+  "id": "R006",
+  "label": "Resource",
+  "name": "Incident Postmortem Dataset",
+  "props": {
+   "resource_type": "Dataset",
+   "sensitivity": "Public"
+  }
+ },
+ "R007": {
+  "id": "R007",
+  "label": "Resource",
+  "name": "Board Pack Folder",
+  "props": {
+   "resource_type": "Folder",
+   "sensitivity": "Internal"
+  }
+ },
+ "R008": {
+  "id": "R008",
+  "label": "Resource",
+  "name": "Pricing Model Folder",
+  "props": {
+   "resource_type": "Folder",
+   "sensitivity": "Confidential"
+  }
+ },
+ "R009": {
+  "id": "R009",
+  "label": "Resource",
+  "name": "Headcount Plan Folder",
+  "props": {
+   "resource_type": "Folder",
+   "sensitivity": "Public"
+  }
+ },
+ "R010": {
+  "id": "R010",
+  "label": "Resource",
+  "name": "Vendor Contracts Report",
+  "props": {
+   "resource_type": "Report",
+   "sensitivity": "Public"
+  }
+ },
+ "R011": {
+  "id": "R011",
+  "label": "Resource",
+  "name": "Product Telemetry Dashboard",
+  "props": {
+   "resource_type": "Dashboard",
+   "sensitivity": "Internal"
+  }
+ },
+ "R012": {
+  "id": "R012",
+  "label": "Resource",
+  "name": "Fraud Signals Report",
+  "props": {
+   "resource_type": "Report",
+   "sensitivity": "Confidential"
+  }
+ },
+ "R013": {
+  "id": "R013",
+  "label": "Resource",
+  "name": "Regional Sales Folder",
+  "props": {
+   "resource_type": "Folder",
+   "sensitivity": "Public"
+  }
+ },
+ "R014": {
+  "id": "R014",
+  "label": "Resource",
+  "name": "Support Backlog Folder",
+  "props": {
+   "resource_type": "Folder",
+   "sensitivity": "Public"
+  }
+ },
+ "R015": {
+  "id": "R015",
+  "label": "Resource",
+  "name": "Capacity Forecast Dashboard",
+  "props": {
+   "resource_type": "Dashboard",
+   "sensitivity": "Internal"
+  }
+ },
+ "R016": {
+  "id": "R016",
+  "label": "Resource",
+  "name": "Audit Trail Folder",
+  "props": {
+   "resource_type": "Folder",
+   "sensitivity": "Confidential"
+  }
+ },
+ "R017": {
+  "id": "R017",
+  "label": "Resource",
+  "name": "Partner Pipeline Dataset",
+  "props": {
+   "resource_type": "Dataset",
+   "sensitivity": "Confidential"
+  }
+ },
+ "R018": {
+  "id": "R018",
+  "label": "Resource",
+  "name": "Churn Risk Report",
+  "props": {
+   "resource_type": "Report",
+   "sensitivity": "Internal"
+  }
+ },
+ "R019": {
+  "id": "R019",
+  "label": "Resource",
+  "name": "Licence Inventory Dataset",
+  "props": {
+   "resource_type": "Dataset",
+   "sensitivity": "Public"
+  }
+ },
+ "R020": {
+  "id": "R020",
+  "label": "Resource",
+  "name": "Security Review Project",
+  "props": {
+   "resource_type": "Project",
+   "sensitivity": "Confidential"
+  }
+ },
+ "G001": {
+  "id": "G001",
+  "label": "Group",
+  "name": "EMEA Viewer Council",
+  "props": {
+   "role": "Viewer"
+  }
+ },
+ "G002": {
+  "id": "G002",
+  "label": "Group",
+  "name": "AMER Support Working Group",
+  "props": {
+   "role": "Support"
+  }
+ },
+ "G003": {
+  "id": "G003",
+  "label": "Group",
+  "name": "APAC Viewer Chapter",
+  "props": {
+   "role": "Viewer"
+  }
+ },
+ "G004": {
+  "id": "G004",
+  "label": "Group",
+  "name": "Global Admin Chapter",
+  "props": {
+   "role": "Admin"
+  }
+ },
+ "G005": {
+  "id": "G005",
+  "label": "Group",
+  "name": "UK Admin Guild",
+  "props": {
+   "role": "Admin"
+  }
+ },
+ "G006": {
+  "id": "G006",
+  "label": "Group",
+  "name": "Nordics Support Circle",
+  "props": {
+   "role": "Support"
+  }
+ },
+ "G007": {
+  "id": "G007",
+  "label": "Group",
+  "name": "Iberia Admin Working Group",
+  "props": {
+   "role": "Admin"
+  }
+ },
+ "G008": {
+  "id": "G008",
+  "label": "Group",
+  "name": "Benelux Admin Guild",
+  "props": {
+   "role": "Admin"
+  }
+ },
+ "G009": {
+  "id": "G009",
+  "label": "Group",
+  "name": "DACH Analyst Council",
+  "props": {
+   "role": "Analyst"
+  }
+ },
+ "G010": {
+  "id": "G010",
+  "label": "Group",
+  "name": "MENA Viewer Working Group",
+  "props": {
+   "role": "Viewer"
+  }
+ }
+}

@@ -1,0 +1,629 @@
+[
+ {
+  "id": "B1-01",
+  "bucket": "B1",
+  "question": "What subscription tier and region is Northwind Analytics on?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "Enterprise, UK",
+  "gremlin": "g.V().hasLabel('Customer').has('id','C059').valueMap('tier','region')",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B1-02",
+  "bucket": "B1",
+  "question": "What subscription tier and region is Yarrow Analytics on?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "Pro, MENA",
+  "gremlin": "g.V().hasLabel('Customer').has('id','C006').valueMap('tier','region')",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B1-03",
+  "bucket": "B1",
+  "question": "What subscription tier and region is Nightingale Logistics on?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "Free, US",
+  "gremlin": "g.V().hasLabel('Customer').has('id','C035').valueMap('tier','region')",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B1-04",
+  "bucket": "B1",
+  "question": "What subscription tier and region is Yarrow Media on?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "Enterprise, EU",
+  "gremlin": "g.V().hasLabel('Customer').has('id','C068').valueMap('tier','region')",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B1-05",
+  "bucket": "B1",
+  "question": "What subscription tier and region is Halcyon Logistics on?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "Pro, US",
+  "gremlin": "g.V().hasLabel('Customer').has('id','C070').valueMap('tier','region')",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B1-06",
+  "bucket": "B1",
+  "question": "What subscription tier and region is Stonebridge Media on?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "Free, UK",
+  "gremlin": "g.V().hasLabel('Customer').has('id','C005').valueMap('tier','region')",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B1-07",
+  "bucket": "B1",
+  "question": "What subscription tier and region is Quarry Lane Consulting on?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "Pro, UK",
+  "gremlin": "g.V().hasLabel('Customer').has('id','C007').valueMap('tier','region')",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B1-08",
+  "bucket": "B1",
+  "question": "What is the sensitivity classification of Supply Chain Dashboard?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "Confidential",
+  "gremlin": "g.V().hasLabel('Resource').has('id','R004').values('sensitivity')",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B1-09",
+  "bucket": "B1",
+  "question": "What is the sensitivity classification of Pricing Model Folder?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "Confidential",
+  "gremlin": "g.V().hasLabel('Resource').has('id','R008').values('sensitivity')",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B1-10",
+  "bucket": "B1",
+  "question": "What is the sensitivity classification of Fraud Signals Report?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "Confidential",
+  "gremlin": "g.V().hasLabel('Resource').has('id','R012').values('sensitivity')",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B2-01",
+  "bucket": "B2",
+  "question": "Which accounts are directly linked to Northwind Analytics, and what tier is each on?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C006",
+   "C009",
+   "C017",
+   "C029",
+   "C047",
+   "C049"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('id','C059').bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().valueMap('id','tier')",
+  "min_docs": 7,
+  "note": "link docs never state tier; profile docs never state links"
+ },
+ {
+  "id": "B2-02",
+  "bucket": "B2",
+  "question": "Which accounts are directly linked to Yarrow Analytics, and what tier is each on?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C002",
+   "C035",
+   "C059"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('id','C006').bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().valueMap('id','tier')",
+  "min_docs": 4,
+  "note": "link docs never state tier; profile docs never state links"
+ },
+ {
+  "id": "B2-03",
+  "bucket": "B2",
+  "question": "Which accounts are directly linked to Nightingale Logistics, and what tier is each on?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C006",
+   "C044",
+   "C070"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('id','C035').bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().valueMap('id','tier')",
+  "min_docs": 4,
+  "note": "link docs never state tier; profile docs never state links"
+ },
+ {
+  "id": "B2-04",
+  "bucket": "B2",
+  "question": "Which groups is Saltmarsh Industries a member of, and which resources do those groups grant access to?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "G003",
+   "G005",
+   "R007",
+   "R011",
+   "R012",
+   "R014",
+   "R018"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('id','C010').bothE('RELATED_TO').has('relation_type','MEMBER').otherV().hasLabel('Group').bothE('RELATED_TO').has('relation_type','GRANTS').otherV().hasLabel('Resource').values('id').dedup()",
+  "min_docs": 3,
+  "note": "the inheritance hop that N_GROUP_GRANTS=0 used to delete"
+ },
+ {
+  "id": "B2-05",
+  "bucket": "B2",
+  "question": "Which groups is Silverline Consulting a member of, and which resources do those groups grant access to?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "G002",
+   "R019"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('id','C021').bothE('RELATED_TO').has('relation_type','MEMBER').otherV().hasLabel('Group').bothE('RELATED_TO').has('relation_type','GRANTS').otherV().hasLabel('Resource').values('id').dedup()",
+  "min_docs": 2,
+  "note": "the inheritance hop that N_GROUP_GRANTS=0 used to delete"
+ },
+ {
+  "id": "B2-06",
+  "bucket": "B2",
+  "question": "Which groups is Vinehall Partners a member of, and which resources do those groups grant access to?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "G010"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('id','C028').bothE('RELATED_TO').has('relation_type','MEMBER').otherV().hasLabel('Group').bothE('RELATED_TO').has('relation_type','GRANTS').otherV().hasLabel('Resource').values('id').dedup()",
+  "min_docs": 2,
+  "note": "the inheritance hop that N_GROUP_GRANTS=0 used to delete"
+ },
+ {
+  "id": "B2-07",
+  "bucket": "B2",
+  "question": "Which Enterprise-tier accounts hold access to a Confidential resource?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C047"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('tier','Enterprise').as('c').where(__.union(__.bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Resource'),__.bothE('RELATED_TO').has('relation_type','MEMBER').otherV().hasLabel('Group').bothE('RELATED_TO').has('relation_type','GRANTS').otherV().hasLabel('Resource')).has('sensitivity','Confidential')).select('c').values('id').dedup()",
+  "min_docs": 3,
+  "note": ""
+ },
+ {
+  "id": "B2-08",
+  "bucket": "B2",
+  "question": "Who holds access to Supply Chain Dashboard, directly or through a group?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C007"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Resource').has('id','R004').bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Customer').values('id').dedup()",
+  "min_docs": 2,
+  "note": ""
+ },
+ {
+  "id": "B2-09",
+  "bucket": "B2",
+  "question": "Who holds access to Pricing Model Folder, directly or through a group?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C035"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Resource').has('id','R008').bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Customer').values('id').dedup()",
+  "min_docs": 2,
+  "note": ""
+ },
+ {
+  "id": "B2-10",
+  "bucket": "B2",
+  "question": "Who holds access to Fraud Signals Report, directly or through a group?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C010",
+   "C052"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Resource').has('id','R012').bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Customer').values('id').dedup()",
+  "min_docs": 2,
+  "note": ""
+ },
+ {
+  "id": "B3-01",
+  "bucket": "B3",
+  "question": "Through its network of linked accounts, which resources can Northwind Analytics ultimately reach?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "R005",
+   "R008",
+   "R011",
+   "R015",
+   "R017",
+   "R018",
+   "R019"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('id','C059').union(__.identity(), __.repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).emit().times(6)).dedup().union(__.bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Resource'),__.bothE('RELATED_TO').has('relation_type','MEMBER').otherV().hasLabel('Group').bothE('RELATED_TO').has('relation_type','GRANTS').otherV().hasLabel('Resource')).values('id').dedup()",
+  "min_docs": 10,
+  "note": "the headline question"
+ },
+ {
+  "id": "B3-02",
+  "bucket": "B3",
+  "question": "Through its network of linked accounts, which resources can Wildergate Retail Group ultimately reach?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "R011",
+   "R014"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('id','C011').union(__.identity(), __.repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).emit().times(6)).dedup().union(__.bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Resource'),__.bothE('RELATED_TO').has('relation_type','MEMBER').otherV().hasLabel('Group').bothE('RELATED_TO').has('relation_type','GRANTS').otherV().hasLabel('Resource')).values('id').dedup()",
+  "min_docs": 10,
+  "note": "the headline question"
+ },
+ {
+  "id": "B3-03",
+  "bucket": "B3",
+  "question": "Which resources can Northwind Analytics reach within two account-link hops?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "R005",
+   "R008",
+   "R011",
+   "R017",
+   "R018",
+   "R019"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('id','C059').union(__.identity(), __.repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).emit().times(2)).dedup().union(__.bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Resource'),__.bothE('RELATED_TO').has('relation_type','MEMBER').otherV().hasLabel('Group').bothE('RELATED_TO').has('relation_type','GRANTS').otherV().hasLabel('Resource')).values('id').dedup()",
+  "min_docs": 6,
+  "note": ""
+ },
+ {
+  "id": "B3-04",
+  "bucket": "B3",
+  "question": "What is the shortest chain of account links connecting Wildergate Partners and Netherby Consulting?",
+  "ordered": true,
+  "gold_entity_ids": [
+   "C054",
+   "C047",
+   "C059",
+   "C006",
+   "C035",
+   "C070",
+   "C050",
+   "C038"
+  ],
+  "gold_scalar": "Wildergate Partners -> Tidewater Analytics -> Northwind Analytics -> Yarrow Analytics -> Nightingale Logistics -> Halcyon Logistics -> Ambleside Systems -> Netherby Consulting",
+  "gremlin": "g.V().hasLabel('Customer').has('id','C054').repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).until(__.has('id','C038')).path().by('id').limit(1)",
+  "min_docs": 7,
+  "note": "ordered answer: score exact match plus sequence edit distance"
+ },
+ {
+  "id": "B3-05",
+  "bucket": "B3",
+  "question": "If Wildergate Partners were compromised, which resources would be exposed through its linked accounts?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "R005",
+   "R008",
+   "R011",
+   "R015",
+   "R017",
+   "R018",
+   "R019"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('id','C054').union(__.identity(), __.repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).emit().times(6)).dedup().union(__.bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Resource'),__.bothE('RELATED_TO').has('relation_type','MEMBER').otherV().hasLabel('Group').bothE('RELATED_TO').has('relation_type','GRANTS').otherV().hasLabel('Resource')).values('id').dedup()",
+  "min_docs": 10,
+  "note": ""
+ },
+ {
+  "id": "B3-06",
+  "bucket": "B3",
+  "question": "Which accounts can reach Quarterly Revenue Report, directly or through linked accounts?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C002",
+   "C005",
+   "C006",
+   "C009",
+   "C014",
+   "C017",
+   "C029",
+   "C035",
+   "C038",
+   "C044",
+   "C047",
+   "C049",
+   "C050",
+   "C051",
+   "C054",
+   "C055",
+   "C057",
+   "C059",
+   "C070"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Resource').has('id','R005').bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Customer').union(__.identity(), __.repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).emit().times(6)).dedup().values('id').dedup()",
+  "min_docs": 8,
+  "note": ""
+ },
+ {
+  "id": "B3-07",
+  "bucket": "B3",
+  "question": "Which accounts can reach Board Pack Folder, directly or through linked accounts?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C010",
+   "C025",
+   "C042",
+   "C048",
+   "C052"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Resource').has('id','R007').bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Customer').union(__.identity(), __.repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).emit().times(6)).dedup().values('id').dedup()",
+  "min_docs": 8,
+  "note": ""
+ },
+ {
+  "id": "B3-08",
+  "bucket": "B3",
+  "question": "Which Free-tier accounts can transitively reach a Confidential resource?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C002",
+   "C005",
+   "C009",
+   "C010",
+   "C029",
+   "C035",
+   "C038",
+   "C044",
+   "C049",
+   "C050",
+   "C051",
+   "C054",
+   "C055",
+   "C057"
+  ],
+  "gold_scalar": null,
+  "gremlin": "g.V().hasLabel('Customer').has('tier','Free').as('c').where(__.union(__.identity(), __.repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).emit().times(6)).dedup().union(__.bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Resource'),__.bothE('RELATED_TO').has('relation_type','MEMBER').otherV().hasLabel('Group').bothE('RELATED_TO').has('relation_type','GRANTS').otherV().hasLabel('Resource')).has('sensitivity','Confidential')).select('c').values('id').dedup()",
+  "min_docs": 12,
+  "note": ""
+ },
+ {
+  "id": "B4-01",
+  "bucket": "B4",
+  "question": "How many accounts are on the Enterprise tier?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "10",
+  "gremlin": "g.V().hasLabel('Customer').has('tier','Enterprise').count()",
+  "min_docs": 70,
+  "note": "requires reading every profile document"
+ },
+ {
+  "id": "B4-02",
+  "bucket": "B4",
+  "question": "Which account has the most direct links to other accounts?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C059"
+  ],
+  "gold_scalar": "Northwind Analytics",
+  "gremlin": "g.V().hasLabel('Customer').order().by(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').count(), desc).limit(1).values('id')",
+  "min_docs": 25,
+  "note": ""
+ },
+ {
+  "id": "B4-03",
+  "bucket": "B4",
+  "question": "How many separate, non-overlapping clusters of linked accounts exist?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "6",
+  "gremlin": "g.V().hasLabel('Customer').where(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK')).group().by(__.union(__.identity(), __.repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).emit().times(6)).dedup().values('id').order().fold()).count(local)",
+  "min_docs": 25,
+  "note": "structurally impossible without a graph"
+ },
+ {
+  "id": "B4-04",
+  "bucket": "B4",
+  "question": "Which resource is reachable by the largest number of accounts?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "R019"
+  ],
+  "gold_scalar": "Licence Inventory Dataset",
+  "gremlin": "g.V().hasLabel('Resource').as('r').map(__.bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Customer').union(__.identity(), __.repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).emit().times(6)).dedup().dedup().count()).order().by(desc).limit(1).select('r').values('id')",
+  "min_docs": 20,
+  "note": ""
+ },
+ {
+  "id": "B4-05",
+  "bucket": "B4",
+  "question": "Which Churned accounts still hold access to a Confidential resource?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C007",
+   "C010"
+  ],
+  "gold_scalar": "2 of 5",
+  "gremlin": "g.V().hasLabel('Customer').has('status','Churned').as('c').where(__.union(__.bothE('RELATED_TO').has('relation_type','ACCESS').otherV().hasLabel('Resource'),__.bothE('RELATED_TO').has('relation_type','MEMBER').otherV().hasLabel('Group').bothE('RELATED_TO').has('relation_type','GRANTS').otherV().hasLabel('Resource')).has('sensitivity','Confidential')).select('c').values('id').dedup()",
+  "min_docs": 6,
+  "note": "the compliance question"
+ },
+ {
+  "id": "B4-06",
+  "bucket": "B4",
+  "question": "How many accounts are on the Free tier?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "40",
+  "gremlin": "g.V().hasLabel('Customer').has('tier','Free').count()",
+  "min_docs": 70,
+  "note": ""
+ },
+ {
+  "id": "B4-07",
+  "bucket": "B4",
+  "question": "How many accounts are on the Pro tier?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "20",
+  "gremlin": "g.V().hasLabel('Customer').has('tier','Pro').count()",
+  "min_docs": 70,
+  "note": ""
+ },
+ {
+  "id": "B4-08",
+  "bucket": "B4",
+  "question": "Which region has the most accounts?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "UK",
+  "gremlin": "g.V().hasLabel('Customer').groupCount().by('region')",
+  "min_docs": 70,
+  "note": ""
+ },
+ {
+  "id": "B4-09",
+  "bucket": "B4",
+  "question": "How many resources are classified Confidential?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "6",
+  "gremlin": "g.V().hasLabel('Resource').has('sensitivity','Confidential').count()",
+  "min_docs": 20,
+  "note": ""
+ },
+ {
+  "id": "B4-10",
+  "bucket": "B4",
+  "question": "How many accounts sit in the largest cluster of linked accounts?",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "19",
+  "gremlin": "g.V().hasLabel('Customer').has('id','C059').union(__.identity(), __.repeat(__.bothE('RELATED_TO').has('relation_type','CUSTOMER_LINK').otherV().simplePath()).emit().times(6)).dedup().count()",
+  "min_docs": 25,
+  "note": ""
+ },
+ {
+  "id": "B5-01",
+  "bucket": "B5",
+  "question": "Which accounts reported that dashboards were slow to load?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C001",
+   "C008",
+   "C043"
+  ],
+  "gold_scalar": null,
+  "gremlin": "",
+  "min_docs": 1,
+  "note": "only stated in distractor tickets; no schema models it"
+ },
+ {
+  "id": "B5-02",
+  "bucket": "B5",
+  "question": "Which access requests were denied or withdrawn, and for which resources?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C001",
+   "C002",
+   "C003",
+   "C004",
+   "C005",
+   "C006",
+   "C007",
+   "C008",
+   "C009",
+   "C011",
+   "R002",
+   "R003",
+   "R005",
+   "R006",
+   "R008",
+   "R011",
+   "R012",
+   "R014",
+   "R017",
+   "R020"
+  ],
+  "gold_scalar": null,
+  "gremlin": "",
+  "min_docs": 1,
+  "note": "the near-miss trap: reads like a grant, retrieves like a grant"
+ },
+ {
+  "id": "B5-03",
+  "bucket": "B5",
+  "question": "Summarise the recurring themes in support tickets across the account base.",
+  "ordered": false,
+  "gold_entity_ids": [],
+  "gold_scalar": "billing, feature, latency, onboarding, outage, password, renewal, training",
+  "gremlin": "",
+  "min_docs": 10,
+  "note": "scored on keyword coverage of the ticket categories, not phrasing"
+ },
+ {
+  "id": "B5-04",
+  "bucket": "B5",
+  "question": "Which accounts had a billing or invoicing query raised?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C015",
+   "C022",
+   "C029",
+   "C050"
+  ],
+  "gold_scalar": null,
+  "gremlin": "",
+  "min_docs": 1,
+  "note": ""
+ },
+ {
+  "id": "B5-05",
+  "bucket": "B5",
+  "question": "Were any password resets performed, and was any entitlement changed as part of them?",
+  "ordered": false,
+  "gold_entity_ids": [
+   "C022",
+   "C050",
+   "C057"
+  ],
+  "gold_scalar": "no",
+  "gremlin": "",
+  "min_docs": 1,
+  "note": "entitlement-change scalar answer is 'no' across every reset ticket"
+ }
+]

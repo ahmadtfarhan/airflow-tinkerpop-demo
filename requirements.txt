@@ -1,0 +1,16 @@
+# Pinned deliberately: the image is built once and `docker save`d before the
+# talk.  Do not float these versions in demo week.
+apache-airflow-providers-apache-tinkerpop==1.1.4
+apache-airflow-providers-common-ai[google,llamaindex]==0.7.0
+apache-airflow-providers-postgres==7.0.1
+
+# Gemini embeddings for the vector arm.  common-ai's LlamaIndex operators
+# default to OpenAI embeddings; passing a prebuilt GoogleGenAIEmbedding
+# instance is what keeps the whole demo on one free-tier Gemini key.
+llama-index-embeddings-google-genai==0.5.1
+
+# pgvector client-side type adapters (register_vector).
+pgvector==0.5.0
+
+# Scorecard chart.
+matplotlib==3.11.1

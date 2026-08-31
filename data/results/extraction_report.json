@@ -1,0 +1,10 @@
+{
+ "source": "llm",
+ "gold_edges": 65,
+ "extracted_edges": 65,
+ "precision": 1.0,
+ "recall": 1.0,
+ "f1": 1.0,
+ "missed": [],
+ "spurious": []
+}

@@ -1,0 +1,551 @@
+[
+ {
+  "relation_type": "ACCESS",
+  "a": "C005",
+  "b": "R015",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "WRITE"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C007",
+  "b": "R004",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C008",
+  "b": "R009",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C010",
+  "b": "R009",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C011",
+  "b": "R014",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C016",
+  "b": "R002",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C017",
+  "b": "R019",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "WRITE"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C018",
+  "b": "R010",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C018",
+  "b": "R015",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "WRITE"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C021",
+  "b": "R018",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C022",
+  "b": "R017",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "WRITE"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C025",
+  "b": "R007",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C031",
+  "b": "R019",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "WRITE"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C035",
+  "b": "R008",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C037",
+  "b": "R014",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "WRITE"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C039",
+  "b": "R002",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C040",
+  "b": "R011",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "WRITE"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C042",
+  "b": "R007",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C047",
+  "b": "R017",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C049",
+  "b": "R005",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "ACCESS",
+  "a": "C065",
+  "b": "R002",
+  "props": {
+   "relation_type": "ACCESS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C002",
+  "b": "C006",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C002",
+  "b": "C055",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C003",
+  "b": "C067",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C004",
+  "b": "C068",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C005",
+  "b": "C070",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C006",
+  "b": "C035",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C006",
+  "b": "C059",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C009",
+  "b": "C059",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C011",
+  "b": "C040",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C014",
+  "b": "C057",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C017",
+  "b": "C059",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C021",
+  "b": "C024",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C025",
+  "b": "C048",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C029",
+  "b": "C059",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C033",
+  "b": "C068",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C035",
+  "b": "C044",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C035",
+  "b": "C070",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C038",
+  "b": "C050",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C043",
+  "b": "C068",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C044",
+  "b": "C057",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C047",
+  "b": "C054",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C047",
+  "b": "C059",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C049",
+  "b": "C051",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C049",
+  "b": "C059",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "CUSTOMER_LINK",
+  "a": "C050",
+  "b": "C070",
+  "props": {
+   "relation_type": "CUSTOMER_LINK"
+  }
+ },
+ {
+  "relation_type": "GRANTS",
+  "a": "G002",
+  "b": "R019",
+  "props": {
+   "relation_type": "GRANTS",
+   "permission": "WRITE"
+  }
+ },
+ {
+  "relation_type": "GRANTS",
+  "a": "G003",
+  "b": "R007",
+  "props": {
+   "relation_type": "GRANTS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "GRANTS",
+  "a": "G003",
+  "b": "R012",
+  "props": {
+   "relation_type": "GRANTS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "GRANTS",
+  "a": "G003",
+  "b": "R014",
+  "props": {
+   "relation_type": "GRANTS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "GRANTS",
+  "a": "G004",
+  "b": "R013",
+  "props": {
+   "relation_type": "GRANTS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "GRANTS",
+  "a": "G005",
+  "b": "R011",
+  "props": {
+   "relation_type": "GRANTS",
+   "permission": "ADMIN"
+  }
+ },
+ {
+  "relation_type": "GRANTS",
+  "a": "G005",
+  "b": "R018",
+  "props": {
+   "relation_type": "GRANTS",
+   "permission": "READ"
+  }
+ },
+ {
+  "relation_type": "GRANTS",
+  "a": "G009",
+  "b": "R014",
+  "props": {
+   "relation_type": "GRANTS",
+   "permission": "WRITE"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C010",
+  "b": "G003",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C010",
+  "b": "G005",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C021",
+  "b": "G002",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C028",
+  "b": "G010",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C030",
+  "b": "G007",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C042",
+  "b": "G008",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C050",
+  "b": "G002",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C052",
+  "b": "G003",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C054",
+  "b": "G005",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C058",
+  "b": "G006",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ },
+ {
+  "relation_type": "MEMBER",
+  "a": "C064",
+  "b": "G002",
+  "props": {
+   "relation_type": "MEMBER"
+  }
+ }
+]

@@ -1,0 +1,4797 @@
+{
+ "summary": {
+  "arms": {
+   "graph": {
+    "buckets": {
+     "B1": {
+      "n": 10,
+      "f1": 1.0,
+      "exact": 1.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B2": {
+      "n": 10,
+      "f1": 1.0,
+      "exact": 1.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B3": {
+      "n": 8,
+      "f1": 0.6669117647058823,
+      "exact": 0.625,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B4": {
+      "n": 10,
+      "f1": 0.9,
+      "exact": 0.9,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     }
+    },
+    "macro_f1": 0.8917279411764706,
+    "micro_f1": 0.9035603715170278,
+    "questions": 38,
+    "total_tokens": 0
+   },
+   "vector": {
+    "buckets": {
+     "B1": {
+      "n": 10,
+      "f1": 1.0,
+      "exact": 1.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B2": {
+      "n": 10,
+      "f1": 0.5411111111111111,
+      "exact": 0.3,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B3": {
+      "n": 8,
+      "f1": 0.03571428571428572,
+      "exact": 0.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B4": {
+      "n": 10,
+      "f1": 0.0,
+      "exact": 0.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     }
+    },
+    "macro_f1": 0.3942063492063492,
+    "micro_f1": 0.41307435254803676,
+    "questions": 38,
+    "total_tokens": 0
+   },
+   "vector@k15": {
+    "buckets": {
+     "B1": {
+      "n": 10,
+      "f1": 1.0,
+      "exact": 1.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B2": {
+      "n": 10,
+      "f1": 0.682020202020202,
+      "exact": 0.4,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B3": {
+      "n": 8,
+      "f1": 0.14583333333333331,
+      "exact": 0.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B4": {
+      "n": 10,
+      "f1": 0.15,
+      "exact": 0.1,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     }
+    },
+    "macro_f1": 0.4944633838383838,
+    "micro_f1": 0.5128123338649654,
+    "questions": 38,
+    "total_tokens": 0
+   },
+   "vector@k25": {
+    "buckets": {
+     "B1": {
+      "n": 10,
+      "f1": 1.0,
+      "exact": 1.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B2": {
+      "n": 10,
+      "f1": 0.7411111111111112,
+      "exact": 0.5,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B3": {
+      "n": 8,
+      "f1": 0.2708333333333333,
+      "exact": 0.125,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B4": {
+      "n": 10,
+      "f1": 0.2,
+      "exact": 0.2,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     }
+    },
+    "macro_f1": 0.5529861111111112,
+    "micro_f1": 0.5678362573099416,
+    "questions": 38,
+    "total_tokens": 0
+   },
+   "vector@k50": {
+    "buckets": {
+     "B1": {
+      "n": 10,
+      "f1": 1.0,
+      "exact": 1.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B2": {
+      "n": 10,
+      "f1": 0.7766666666666666,
+      "exact": 0.6,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B3": {
+      "n": 8,
+      "f1": 0.3429330065359477,
+      "exact": 0.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B4": {
+      "n": 10,
+      "f1": 0.4,
+      "exact": 0.4,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     }
+    },
+    "macro_f1": 0.6298999183006536,
+    "micro_f1": 0.6450034399724802,
+    "questions": 38,
+    "total_tokens": 0
+   },
+   "full_context": {
+    "buckets": {
+     "B1": {
+      "n": 10,
+      "f1": 1.0,
+      "exact": 1.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B2": {
+      "n": 10,
+      "f1": 0.7966666666666666,
+      "exact": 0.6,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B3": {
+      "n": 8,
+      "f1": 0.2866071428571429,
+      "exact": 0.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     },
+     "B4": {
+      "n": 10,
+      "f1": 1.0,
+      "exact": 1.0,
+      "latency_p50": 0.0,
+      "latency_p95": 0.0,
+      "tokens": 0
+     }
+    },
+    "macro_f1": 0.7708184523809524,
+    "micro_f1": 0.7963032581453635,
+    "questions": 38,
+    "total_tokens": 0
+   }
+  },
+  "table": "| bucket | graph | vector | vector@k15 | vector@k25 | vector@k50 | full_context |\n|---|---|---|---|---|---|---|\n| B1 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |\n| B2 | 1.00 | 0.54 | 0.68 | 0.74 | 0.78 | 0.80 |\n| B3 | 0.67 | 0.04 | 0.15 | 0.27 | 0.34 | 0.29 |\n| B4 | 0.90 | 0.00 | 0.15 | 0.20 | 0.40 | 1.00 |\n| **macro-F1** | **0.89** | **0.39** | **0.49** | **0.55** | **0.63** | **0.77** |\n| micro-F1 | 0.90 | 0.41 | 0.51 | 0.57 | 0.65 | 0.80 |"
+ },
+ "rows": [
+  {
+   "question_id": "B1-01",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, UK",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B1-02",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, MENA",
+   "predicted": [],
+   "predicted_scalar": "Pro, MENA",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B1-03",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, US",
+   "predicted": [],
+   "predicted_scalar": "Free, US",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B1-04",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, EU",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, EU",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B1-05",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, US",
+   "predicted": [],
+   "predicted_scalar": "Pro, US",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B1-06",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, UK",
+   "predicted": [],
+   "predicted_scalar": "Free, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B1-07",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, UK",
+   "predicted": [],
+   "predicted_scalar": "Pro, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B1-08",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B1-09",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B1-10",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B2-01",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C009",
+    "C017",
+    "C029",
+    "C047",
+    "C049"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C009",
+    "C049",
+    "C017",
+    "C029",
+    "C047",
+    "C006"
+   ],
+   "predicted_scalar": "C009: Free, C049: Free, C017: Pro, C029: Free, C047: Enterprise, C006: Pro",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B2-02",
+   "bucket": "B2",
+   "gold": [
+    "C002",
+    "C035",
+    "C059"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C002",
+    "C035",
+    "C059"
+   ],
+   "predicted_scalar": "C002: Free, C035: Free, C059: Enterprise",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B2-03",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C044",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C044",
+    "C070",
+    "C006"
+   ],
+   "predicted_scalar": "C044: Free, C070: Pro, C006: Pro",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B2-04",
+   "bucket": "B2",
+   "gold": [
+    "G003",
+    "G005",
+    "R007",
+    "R011",
+    "R012",
+    "R014",
+    "R018"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003",
+    "G005",
+    "R007",
+    "R012",
+    "R014",
+    "R018",
+    "R011"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B2-05",
+   "bucket": "B2",
+   "gold": [
+    "G002",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G002",
+    "R019"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B2-06",
+   "bucket": "B2",
+   "gold": [
+    "G010"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G010"
+   ],
+   "predicted_scalar": "G010 (MENA Viewer Working Group) is the only group, and it grants access to no resources.",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B2-07",
+   "bucket": "B2",
+   "gold": [
+    "C047"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C047"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B2-08",
+   "bucket": "B2",
+   "gold": [
+    "C007"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C007"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B2-09",
+   "bucket": "B2",
+   "gold": [
+    "C035"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C035"
+   ],
+   "predicted_scalar": "Nightingale Logistics",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B2-10",
+   "bucket": "B2",
+   "gold": [
+    "C010",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C052",
+    "C010"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B3-01",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "R005",
+    "R019",
+    "R017",
+    "R018",
+    "R011",
+    "R008",
+    "R015"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B3-02",
+   "bucket": "B3",
+   "gold": [
+    "R011",
+    "R014"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "R014",
+    "R011"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B3-03",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "R005",
+    "R019",
+    "R017",
+    "R018",
+    "R011",
+    "R008"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B3-04",
+   "bucket": "B3",
+   "gold": [
+    "C054",
+    "C047",
+    "C059",
+    "C006",
+    "C035",
+    "C070",
+    "C050",
+    "C038"
+   ],
+   "gold_scalar": "Wildergate Partners -> Tidewater Analytics -> Northwind Analytics -> Yarrow Analytics -> Nightingale Logistics -> Halcyon Logistics -> Ambleside Systems -> Netherby Consulting",
+   "predicted": [],
+   "predicted_scalar": "No direct or short chain of CUSTOMER_LINK connections exists between Wildergate Partners (C054) and Netherby Consulting (C038).",
+   "confidence": 0.5,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "sequence": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B3-05",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "R018",
+    "R011",
+    "R017",
+    "R005",
+    "R019",
+    "R008",
+    "R015"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B3-06",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C006",
+    "C009",
+    "C014",
+    "C017",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C047",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057",
+    "C059",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C049"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 0.05263157894736842,
+   "f1": 0.1,
+   "exact": 0.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B3-07",
+   "bucket": "B3",
+   "gold": [
+    "C010",
+    "C025",
+    "C042",
+    "C048",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C042",
+    "C025",
+    "C048",
+    "C052",
+    "C010"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B3-08",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C009",
+    "C010",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C047",
+    "C035",
+    "C010"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 0.6666666666666666,
+   "recall": 0.14285714285714285,
+   "f1": 0.23529411764705882,
+   "exact": 0.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B4-01",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "10",
+   "predicted": [],
+   "predicted_scalar": "10",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B4-02",
+   "bucket": "B4",
+   "gold": [
+    "C059"
+   ],
+   "gold_scalar": "Northwind Analytics",
+   "predicted": [
+    "C059"
+   ],
+   "predicted_scalar": "12",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 0.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B4-03",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "45",
+   "confidence": 0.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B4-04",
+   "bucket": "B4",
+   "gold": [
+    "R019"
+   ],
+   "gold_scalar": "Licence Inventory Dataset",
+   "predicted": [
+    "R019"
+   ],
+   "predicted_scalar": "R019",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 0.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B4-05",
+   "bucket": "B4",
+   "gold": [
+    "C007",
+    "C010"
+   ],
+   "gold_scalar": "2 of 5",
+   "predicted": [
+    "C007",
+    "C010"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 0.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B4-06",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "40",
+   "predicted": [],
+   "predicted_scalar": "40",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B4-07",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "20",
+   "predicted": [],
+   "predicted_scalar": "20",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B4-08",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "UK",
+   "predicted": [],
+   "predicted_scalar": "UK",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B4-09",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "6",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B4-10",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "19",
+   "predicted": [],
+   "predicted_scalar": "19",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "graph"
+  },
+  {
+   "question_id": "B1-01",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, UK",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B1-01",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, UK",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B1-01",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, UK",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B1-01",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, UK",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B1-02",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, MENA",
+   "predicted": [],
+   "predicted_scalar": "Pro, MENA",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B1-02",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, MENA",
+   "predicted": [],
+   "predicted_scalar": "Pro, MENA",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B1-02",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, MENA",
+   "predicted": [],
+   "predicted_scalar": "Pro, MENA",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B1-02",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, MENA",
+   "predicted": [],
+   "predicted_scalar": "MENA, Pro",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B1-03",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, US",
+   "predicted": [],
+   "predicted_scalar": "US, Free",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B1-03",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, US",
+   "predicted": [],
+   "predicted_scalar": "Free, US",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B1-03",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, US",
+   "predicted": [],
+   "predicted_scalar": "Free, US",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B1-03",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, US",
+   "predicted": [],
+   "predicted_scalar": "Region US, tier Free",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B1-04",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, EU",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, EU",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B1-04",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, EU",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, EU",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B1-04",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, EU",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, EU",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B1-04",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, EU",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, EU",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B1-05",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, US",
+   "predicted": [],
+   "predicted_scalar": "Pro, US",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B1-05",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, US",
+   "predicted": [],
+   "predicted_scalar": "Pro, US",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B1-05",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, US",
+   "predicted": [],
+   "predicted_scalar": "Pro, US",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B1-05",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, US",
+   "predicted": [],
+   "predicted_scalar": "US, Pro",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B1-06",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, UK",
+   "predicted": [],
+   "predicted_scalar": "Free, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B1-06",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, UK",
+   "predicted": [],
+   "predicted_scalar": "Free, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B1-06",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, UK",
+   "predicted": [],
+   "predicted_scalar": "Free, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B1-06",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, UK",
+   "predicted": [],
+   "predicted_scalar": "Free, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B1-07",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, UK",
+   "predicted": [],
+   "predicted_scalar": "Pro, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B1-07",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, UK",
+   "predicted": [],
+   "predicted_scalar": "Pro, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B1-07",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, UK",
+   "predicted": [],
+   "predicted_scalar": "Pro, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B1-07",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, UK",
+   "predicted": [],
+   "predicted_scalar": "Pro, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B1-08",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B1-08",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B1-08",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B1-08",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B1-09",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B1-09",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B1-09",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B1-09",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B1-10",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B1-10",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B1-10",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B1-10",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B2-01",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C009",
+    "C017",
+    "C029",
+    "C047",
+    "C049"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C047",
+    "C049",
+    "C017",
+    "C009"
+   ],
+   "predicted_scalar": "Tier information is not provided in the retrieved documents",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.6666666666666666,
+   "f1": 0.8,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B2-01",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C009",
+    "C017",
+    "C029",
+    "C047",
+    "C049"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C009",
+    "C017",
+    "C029",
+    "C049",
+    "C047"
+   ],
+   "predicted_scalar": "Tidewater Analytics (Enterprise); tier information for Cedar Point Labs, Chandler Labs, Halcyon Consulting, and Jasperton Systems is not provided in the documents.",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.8333333333333334,
+   "f1": 0.9090909090909091,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B2-01",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C009",
+    "C017",
+    "C029",
+    "C047",
+    "C049"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C009",
+    "C017",
+    "C029",
+    "C049",
+    "C047",
+    "C006"
+   ],
+   "predicted_scalar": "Cedar Point Labs (unknown), Chandler Labs (unknown), Halcyon Consulting (unknown), Jasperton Systems (unknown), Tidewater Analytics (Enterprise), Yarrow Analytics (Pro)",
+   "confidence": 0.95,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B2-01",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C009",
+    "C017",
+    "C029",
+    "C047",
+    "C049"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C009",
+    "C017",
+    "C029",
+    "C049",
+    "C047",
+    "C006"
+   ],
+   "predicted_scalar": "Cedar Point Labs (Free), Chandler Labs (Tier unknown), Halcyon Consulting (Free), Jasperton Systems (Tier unknown), Tidewater Analytics (Enterprise), Yarrow Analytics (Pro)",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B2-02",
+   "bucket": "B2",
+   "gold": [
+    "C002",
+    "C035",
+    "C059"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C035"
+   ],
+   "predicted_scalar": "Nightingale Logistics (tier unknown)",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.3333333333333333,
+   "f1": 0.5,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B2-02",
+   "bucket": "B2",
+   "gold": [
+    "C002",
+    "C035",
+    "C059"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C035",
+    "C002"
+   ],
+   "predicted_scalar": "Nightingale Logistics (tier unknown), Drakemoor Labs (tier unknown)",
+   "confidence": 0.95,
+   "precision": 1.0,
+   "recall": 0.6666666666666666,
+   "f1": 0.8,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B2-02",
+   "bucket": "B2",
+   "gold": [
+    "C002",
+    "C035",
+    "C059"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C035",
+    "C002"
+   ],
+   "predicted_scalar": "Tier information not provided",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.6666666666666666,
+   "f1": 0.8,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B2-02",
+   "bucket": "B2",
+   "gold": [
+    "C002",
+    "C035",
+    "C059"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C002",
+    "C035",
+    "C059"
+   ],
+   "predicted_scalar": "Drakemoor Labs: Free; Nightingale Logistics: Not specified; Northwind Analytics: Not specified",
+   "confidence": 0.95,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B2-03",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C044",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C070",
+    "C006",
+    "C044"
+   ],
+   "predicted_scalar": "Halcyon Logistics, Yarrow Analytics, Ravensworth Consulting (tiers not provided in documents)",
+   "confidence": 0.95,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B2-03",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C044",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C070",
+    "C006",
+    "C044"
+   ],
+   "predicted_scalar": "Halcyon Logistics (Pro), Ravensworth Consulting (Unknown), Yarrow Analytics (Unknown)",
+   "confidence": 0.95,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B2-03",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C044",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C070",
+    "C044",
+    "C006"
+   ],
+   "predicted_scalar": "Halcyon Logistics: Pro, Ravensworth Consulting: Free, Yarrow Analytics: unknown",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B2-03",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C044",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C070",
+    "C044",
+    "C006"
+   ],
+   "predicted_scalar": "Halcyon Logistics: Pro, Ravensworth Consulting: Free, Yarrow Analytics: Pro",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B2-04",
+   "bucket": "B2",
+   "gold": [
+    "G003",
+    "G005",
+    "R007",
+    "R011",
+    "R012",
+    "R014",
+    "R018"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003",
+    "G005"
+   ],
+   "predicted_scalar": "APAC Viewer Chapter, UK Admin Guild (resources are not specified in the documents)",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.2857142857142857,
+   "f1": 0.4444444444444445,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B2-04",
+   "bucket": "B2",
+   "gold": [
+    "G003",
+    "G005",
+    "R007",
+    "R011",
+    "R012",
+    "R014",
+    "R018"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003",
+    "G005"
+   ],
+   "predicted_scalar": "The provided documents do not specify which resources these groups grant access to.",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.2857142857142857,
+   "f1": 0.4444444444444445,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B2-04",
+   "bucket": "B2",
+   "gold": [
+    "G003",
+    "G005",
+    "R007",
+    "R011",
+    "R012",
+    "R014",
+    "R018"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003",
+    "G005"
+   ],
+   "predicted_scalar": "APAC Viewer Chapter, UK Admin Guild; resources not specified",
+   "confidence": 0.95,
+   "precision": 1.0,
+   "recall": 0.2857142857142857,
+   "f1": 0.4444444444444445,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B2-04",
+   "bucket": "B2",
+   "gold": [
+    "G003",
+    "G005",
+    "R007",
+    "R011",
+    "R012",
+    "R014",
+    "R018"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003",
+    "G005",
+    "R014"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.42857142857142855,
+   "f1": 0.6,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B2-05",
+   "bucket": "B2",
+   "gold": [
+    "G002",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G002"
+   ],
+   "predicted_scalar": "AMER Support Working Group (resources not specified)",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.5,
+   "f1": 0.6666666666666666,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B2-05",
+   "bucket": "B2",
+   "gold": [
+    "G002",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G002"
+   ],
+   "predicted_scalar": "AMER Support Working Group (resources not specified)",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.5,
+   "f1": 0.6666666666666666,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B2-05",
+   "bucket": "B2",
+   "gold": [
+    "G002",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G002"
+   ],
+   "predicted_scalar": "Not specified",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.5,
+   "f1": 0.6666666666666666,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B2-05",
+   "bucket": "B2",
+   "gold": [
+    "G002",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G002"
+   ],
+   "predicted_scalar": "AMER Support Working Group (resources not specified)",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.5,
+   "f1": 0.6666666666666666,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B2-06",
+   "bucket": "B2",
+   "gold": [
+    "G010"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G010"
+   ],
+   "predicted_scalar": "MENA Viewer Working Group (resources not specified in documents)",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B2-06",
+   "bucket": "B2",
+   "gold": [
+    "G010"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G010"
+   ],
+   "predicted_scalar": "MENA Viewer Working Group (resources not specified in the documents)",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B2-06",
+   "bucket": "B2",
+   "gold": [
+    "G010"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G010"
+   ],
+   "predicted_scalar": "MENA Viewer Working Group, no resources specified",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B2-06",
+   "bucket": "B2",
+   "gold": [
+    "G010"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G010"
+   ],
+   "predicted_scalar": "MENA Viewer Working Group (resource access not specified in documents)",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B2-07",
+   "bucket": "B2",
+   "gold": [
+    "C047"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "The documents do not contain enough information to determine which Enterprise-tier accounts hold access to a Confidential resource.",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B2-07",
+   "bucket": "B2",
+   "gold": [
+    "C047"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B2-07",
+   "bucket": "B2",
+   "gold": [
+    "C047"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B2-07",
+   "bucket": "B2",
+   "gold": [
+    "C047"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B2-08",
+   "bucket": "B2",
+   "gold": [
+    "C007"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C007"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B2-08",
+   "bucket": "B2",
+   "gold": [
+    "C007"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C007"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B2-08",
+   "bucket": "B2",
+   "gold": [
+    "C007"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C007"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B2-08",
+   "bucket": "B2",
+   "gold": [
+    "C007"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C007"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B2-09",
+   "bucket": "B2",
+   "gold": [
+    "C035"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B2-09",
+   "bucket": "B2",
+   "gold": [
+    "C035"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C035"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B2-09",
+   "bucket": "B2",
+   "gold": [
+    "C035"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C035"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B2-09",
+   "bucket": "B2",
+   "gold": [
+    "C035"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C035"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B2-10",
+   "bucket": "B2",
+   "gold": [
+    "C010",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B2-10",
+   "bucket": "B2",
+   "gold": [
+    "C010",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B2-10",
+   "bucket": "B2",
+   "gold": [
+    "C010",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003",
+    "C052"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 0.5,
+   "recall": 0.5,
+   "f1": 0.5,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B2-10",
+   "bucket": "B2",
+   "gold": [
+    "C010",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003",
+    "C052"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 0.5,
+   "recall": 0.5,
+   "f1": 0.5,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B3-01",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "The retrieved documents do not contain information about accessible resources.",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B3-01",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "The retrieved documents do not contain information about accessible resources.",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B3-01",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B3-01",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "R017",
+    "R005"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.2857142857142857,
+   "f1": 0.4444444444444445,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B3-02",
+   "bucket": "B3",
+   "gold": [
+    "R011",
+    "R014"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B3-02",
+   "bucket": "B3",
+   "gold": [
+    "R011",
+    "R014"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "R014"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.5,
+   "f1": 0.6666666666666666,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B3-02",
+   "bucket": "B3",
+   "gold": [
+    "R011",
+    "R014"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "R014"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.5,
+   "f1": 0.6666666666666666,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B3-02",
+   "bucket": "B3",
+   "gold": [
+    "R011",
+    "R014"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "R014"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.5,
+   "f1": 0.6666666666666666,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B3-03",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "Insufficient information",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B3-03",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "The documents do not contain enough information",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B3-03",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B3-03",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "none",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B3-04",
+   "bucket": "B3",
+   "gold": [
+    "C054",
+    "C047",
+    "C059",
+    "C006",
+    "C035",
+    "C070",
+    "C050",
+    "C038"
+   ],
+   "gold_scalar": "Wildergate Partners -> Tidewater Analytics -> Northwind Analytics -> Yarrow Analytics -> Nightingale Logistics -> Halcyon Logistics -> Ambleside Systems -> Netherby Consulting",
+   "predicted": [],
+   "predicted_scalar": "Insufficient information",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "sequence": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B3-04",
+   "bucket": "B3",
+   "gold": [
+    "C054",
+    "C047",
+    "C059",
+    "C006",
+    "C035",
+    "C070",
+    "C050",
+    "C038"
+   ],
+   "gold_scalar": "Wildergate Partners -> Tidewater Analytics -> Northwind Analytics -> Yarrow Analytics -> Nightingale Logistics -> Halcyon Logistics -> Ambleside Systems -> Netherby Consulting",
+   "predicted": [],
+   "predicted_scalar": "The provided documents do not contain enough information to connect Wildergate Partners and Netherby Consulting.",
+   "confidence": 0.95,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "sequence": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B3-04",
+   "bucket": "B3",
+   "gold": [
+    "C054",
+    "C047",
+    "C059",
+    "C006",
+    "C035",
+    "C070",
+    "C050",
+    "C038"
+   ],
+   "gold_scalar": "Wildergate Partners -> Tidewater Analytics -> Northwind Analytics -> Yarrow Analytics -> Nightingale Logistics -> Halcyon Logistics -> Ambleside Systems -> Netherby Consulting",
+   "predicted": [
+    "C054",
+    "C047",
+    "C059",
+    "C006",
+    "C035",
+    "C070",
+    "C050",
+    "C038"
+   ],
+   "predicted_scalar": "Wildergate Partners -> Tidewater Analytics -> Northwind Analytics -> Yarrow Analytics -> Nightingale Logistics -> Halcyon Logistics -> Ambleside Systems -> Netherby Consulting",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "sequence": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B3-04",
+   "bucket": "B3",
+   "gold": [
+    "C054",
+    "C047",
+    "C059",
+    "C006",
+    "C035",
+    "C070",
+    "C050",
+    "C038"
+   ],
+   "gold_scalar": "Wildergate Partners -> Tidewater Analytics -> Northwind Analytics -> Yarrow Analytics -> Nightingale Logistics -> Halcyon Logistics -> Ambleside Systems -> Netherby Consulting",
+   "predicted": [],
+   "predicted_scalar": "Wildergate Partners -> Tidewater Analytics -> Northwind Analytics -> Yarrow Analytics -> Nightingale Logistics -> Halcyon Logistics -> Ambleside Systems -> Netherby Consulting",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "sequence": 0.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B3-05",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "The retrieved documents do not contain enough information to determine which resources would be exposed.",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B3-05",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B3-05",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "The documents do not contain enough information to determine any exposed resources for Wildergate Partners' linked accounts.",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B3-05",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B3-06",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C006",
+    "C009",
+    "C014",
+    "C017",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C047",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057",
+    "C059",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "Insufficient information",
+   "confidence": 0.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B3-06",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C006",
+    "C009",
+    "C014",
+    "C017",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C047",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057",
+    "C059",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "Insufficient information in retrieved documents",
+   "confidence": 0.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B3-06",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C006",
+    "C009",
+    "C014",
+    "C017",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C047",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057",
+    "C059",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "The retrieved documents do not contain information about Quarterly Revenue Report or its access rules.",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B3-06",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C006",
+    "C009",
+    "C014",
+    "C017",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C047",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057",
+    "C059",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C050",
+    "C057",
+    "C029",
+    "C070",
+    "C049",
+    "C038",
+    "C035",
+    "C059",
+    "C044",
+    "C014",
+    "C005",
+    "C051",
+    "C047",
+    "C054",
+    "C006"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.7894736842105263,
+   "f1": 0.8823529411764706,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B3-07",
+   "bucket": "B3",
+   "gold": [
+    "C010",
+    "C025",
+    "C042",
+    "C048",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003",
+    "C025"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 0.5,
+   "recall": 0.2,
+   "f1": 0.28571428571428575,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B3-07",
+   "bucket": "B3",
+   "gold": [
+    "C010",
+    "C025",
+    "C042",
+    "C048",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003",
+    "C042",
+    "C025"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 0.6666666666666666,
+   "recall": 0.4,
+   "f1": 0.5,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B3-07",
+   "bucket": "B3",
+   "gold": [
+    "C010",
+    "C025",
+    "C042",
+    "C048",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C025",
+    "C042",
+    "G003"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 0.6666666666666666,
+   "recall": 0.4,
+   "f1": 0.5,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B3-07",
+   "bucket": "B3",
+   "gold": [
+    "C010",
+    "C025",
+    "C042",
+    "C048",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C025",
+    "C042",
+    "C048"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.6,
+   "f1": 0.7499999999999999,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B3-08",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C009",
+    "C010",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "Insufficient information",
+   "confidence": 0.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B3-08",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C009",
+    "C010",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "The retrieved documents do not contain enough information to determine which Free-tier accounts can transitively reach a Confidential resource.",
+   "confidence": 0.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B3-08",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C009",
+    "C010",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B3-08",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C009",
+    "C010",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057"
+   ],
+   "gold_scalar": null,
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B4-01",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "10",
+   "predicted": [],
+   "predicted_scalar": "5",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B4-01",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "10",
+   "predicted": [],
+   "predicted_scalar": "6",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B4-01",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "10",
+   "predicted": [],
+   "predicted_scalar": "8",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B4-01",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "10",
+   "predicted": [],
+   "predicted_scalar": "9",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B4-02",
+   "bucket": "B4",
+   "gold": [
+    "C059"
+   ],
+   "gold_scalar": "Northwind Analytics",
+   "predicted": [
+    "C070",
+    "C035"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B4-02",
+   "bucket": "B4",
+   "gold": [
+    "C059"
+   ],
+   "gold_scalar": "Northwind Analytics",
+   "predicted": [
+    "C070",
+    "C035",
+    "C059"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 0.3333333333333333,
+   "recall": 1.0,
+   "f1": 0.5,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B4-02",
+   "bucket": "B4",
+   "gold": [
+    "C059"
+   ],
+   "gold_scalar": "Northwind Analytics",
+   "predicted": [
+    "C059"
+   ],
+   "predicted_scalar": "Northwind Analytics",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B4-02",
+   "bucket": "B4",
+   "gold": [
+    "C059"
+   ],
+   "gold_scalar": "Northwind Analytics",
+   "predicted": [
+    "C059"
+   ],
+   "predicted_scalar": "Northwind Analytics",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B4-03",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "1",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B4-03",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "5",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B4-03",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "7",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B4-03",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "6",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B4-04",
+   "bucket": "B4",
+   "gold": [
+    "R019"
+   ],
+   "gold_scalar": "Licence Inventory Dataset",
+   "predicted": [],
+   "predicted_scalar": "Insufficient information",
+   "confidence": 0.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B4-04",
+   "bucket": "B4",
+   "gold": [
+    "R019"
+   ],
+   "gold_scalar": "Licence Inventory Dataset",
+   "predicted": [],
+   "predicted_scalar": "Insufficient information",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B4-04",
+   "bucket": "B4",
+   "gold": [
+    "R019"
+   ],
+   "gold_scalar": "Licence Inventory Dataset",
+   "predicted": [],
+   "predicted_scalar": "Insufficient information",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B4-04",
+   "bucket": "B4",
+   "gold": [
+    "R019"
+   ],
+   "gold_scalar": "Licence Inventory Dataset",
+   "predicted": [],
+   "predicted_scalar": "Capacity Forecast Dashboard",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B4-05",
+   "bucket": "B4",
+   "gold": [
+    "C007",
+    "C010"
+   ],
+   "gold_scalar": "2 of 5",
+   "predicted": [],
+   "predicted_scalar": "The documents do not contain enough information to determine which Churned accounts hold access to a Confidential resource.",
+   "confidence": 0.9,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B4-05",
+   "bucket": "B4",
+   "gold": [
+    "C007",
+    "C010"
+   ],
+   "gold_scalar": "2 of 5",
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B4-05",
+   "bucket": "B4",
+   "gold": [
+    "C007",
+    "C010"
+   ],
+   "gold_scalar": "2 of 5",
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B4-05",
+   "bucket": "B4",
+   "gold": [
+    "C007",
+    "C010"
+   ],
+   "gold_scalar": "2 of 5",
+   "predicted": [],
+   "predicted_scalar": "None",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B4-06",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "40",
+   "predicted": [],
+   "predicted_scalar": "5",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B4-06",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "40",
+   "predicted": [],
+   "predicted_scalar": "15",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B4-06",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "40",
+   "predicted": [],
+   "predicted_scalar": "24",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B4-06",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "40",
+   "predicted": [],
+   "predicted_scalar": "39",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B4-07",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "20",
+   "predicted": [],
+   "predicted_scalar": "5",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B4-07",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "20",
+   "predicted": [],
+   "predicted_scalar": "10",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B4-07",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "20",
+   "predicted": [],
+   "predicted_scalar": "13",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B4-07",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "20",
+   "predicted": [],
+   "predicted_scalar": "15",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B4-08",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "UK",
+   "predicted": [],
+   "predicted_scalar": "MENA",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B4-08",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "UK",
+   "predicted": [],
+   "predicted_scalar": "MENA",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B4-08",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "UK",
+   "predicted": [],
+   "predicted_scalar": "MENA",
+   "confidence": 0.95,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B4-08",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "UK",
+   "predicted": [],
+   "predicted_scalar": "UK",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B4-09",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "5",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B4-09",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "6",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B4-09",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "6",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B4-09",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "6",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B4-10",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "19",
+   "predicted": [],
+   "predicted_scalar": "6",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector",
+   "top_k": 5
+  },
+  {
+   "question_id": "B4-10",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "19",
+   "predicted": [],
+   "predicted_scalar": "8",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k15",
+   "top_k": 15
+  },
+  {
+   "question_id": "B4-10",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "19",
+   "predicted": [],
+   "predicted_scalar": "9",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k25",
+   "top_k": 25
+  },
+  {
+   "question_id": "B4-10",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "19",
+   "predicted": [],
+   "predicted_scalar": "11",
+   "confidence": 1.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "scalar_exact": 0.0,
+   "arm": "vector@k50",
+   "top_k": 50
+  },
+  {
+   "question_id": "B1-01",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, UK",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B1-02",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, MENA",
+   "predicted": [],
+   "predicted_scalar": "Pro, MENA",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B1-03",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, US",
+   "predicted": [],
+   "predicted_scalar": "Free, US",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B1-04",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Enterprise, EU",
+   "predicted": [],
+   "predicted_scalar": "Enterprise, EU",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B1-05",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, US",
+   "predicted": [],
+   "predicted_scalar": "Pro, US",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B1-06",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Free, UK",
+   "predicted": [],
+   "predicted_scalar": "Free, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B1-07",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Pro, UK",
+   "predicted": [],
+   "predicted_scalar": "Pro, UK",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B1-08",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B1-09",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B1-10",
+   "bucket": "B1",
+   "gold": [],
+   "gold_scalar": "Confidential",
+   "predicted": [],
+   "predicted_scalar": "Confidential",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B2-01",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C009",
+    "C017",
+    "C029",
+    "C047",
+    "C049"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C029",
+    "C006",
+    "C009",
+    "C017",
+    "C049",
+    "C047"
+   ],
+   "predicted_scalar": "Halcyon Consulting (Free), Yarrow Analytics (Pro), Cedar Point Labs (Free), Chandler Labs (Pro), Jasperton Systems (Free), Tidewater Analytics (Enterprise)",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B2-02",
+   "bucket": "B2",
+   "gold": [
+    "C002",
+    "C035",
+    "C059"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C059",
+    "C002",
+    "C035"
+   ],
+   "predicted_scalar": "Northwind Analytics (Enterprise), Drakemoor Labs (Free), Nightingale Logistics (Free)",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B2-03",
+   "bucket": "B2",
+   "gold": [
+    "C006",
+    "C044",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C070",
+    "C006",
+    "C044"
+   ],
+   "predicted_scalar": "Halcyon Logistics: Pro; Yarrow Analytics: Pro; Ravensworth Consulting: Free",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B2-04",
+   "bucket": "B2",
+   "gold": [
+    "G003",
+    "G005",
+    "R007",
+    "R011",
+    "R012",
+    "R014",
+    "R018"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G005",
+    "G003"
+   ],
+   "predicted_scalar": "UK Admin Guild grants access to Product Telemetry Dashboard (ADMIN) and Churn Risk Report (READ). APAC Viewer Chapter grants access to Support Backlog Folder (READ), Fraud Signals Report (READ), and Board Pack Folder (READ).",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 0.2857142857142857,
+   "f1": 0.4444444444444445,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B2-05",
+   "bucket": "B2",
+   "gold": [
+    "G002",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C021",
+    "G002"
+   ],
+   "predicted_scalar": "Licence Inventory Dataset",
+   "confidence": 0.0,
+   "precision": 0.5,
+   "recall": 0.5,
+   "f1": 0.5,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B2-06",
+   "bucket": "B2",
+   "gold": [
+    "G010"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G010"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B2-07",
+   "bucket": "B2",
+   "gold": [
+    "C047"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C028",
+    "C047",
+    "C053",
+    "C059",
+    "C066",
+    "C068",
+    "C069",
+    "C065"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 0.125,
+   "recall": 1.0,
+   "f1": 0.2222222222222222,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B2-08",
+   "bucket": "B2",
+   "gold": [
+    "C007"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C007"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B2-09",
+   "bucket": "B2",
+   "gold": [
+    "C035"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C035"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B2-10",
+   "bucket": "B2",
+   "gold": [
+    "C010",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "G003",
+    "C052",
+    "C010"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 0.6666666666666666,
+   "recall": 1.0,
+   "f1": 0.8,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B3-01",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C029",
+    "C006",
+    "C009",
+    "C017",
+    "C049",
+    "C047"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B3-02",
+   "bucket": "B3",
+   "gold": [
+    "R011",
+    "R014"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "R014"
+   ],
+   "predicted_scalar": "Support Backlog Folder",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 0.5,
+   "f1": 0.6666666666666666,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B3-03",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C029",
+    "C006",
+    "C009",
+    "C017",
+    "C049",
+    "C047"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B3-04",
+   "bucket": "B3",
+   "gold": [
+    "C054",
+    "C047",
+    "C059",
+    "C006",
+    "C035",
+    "C070",
+    "C050",
+    "C038"
+   ],
+   "gold_scalar": "Wildergate Partners -> Tidewater Analytics -> Northwind Analytics -> Yarrow Analytics -> Nightingale Logistics -> Halcyon Logistics -> Ambleside Systems -> Netherby Consulting",
+   "predicted": [
+    "C054",
+    "C047",
+    "C059",
+    "C049",
+    "C051",
+    "C055",
+    "C002",
+    "C006",
+    "C035",
+    "C044",
+    "C057",
+    "C014",
+    "C038"
+   ],
+   "predicted_scalar": "6",
+   "confidence": 0.0,
+   "precision": 0.46153846153846156,
+   "recall": 0.75,
+   "f1": 0.5714285714285714,
+   "exact": 0.0,
+   "sequence": 0.5714285714285714,
+   "scalar_exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B3-05",
+   "bucket": "B3",
+   "gold": [
+    "R005",
+    "R008",
+    "R011",
+    "R015",
+    "R017",
+    "R018",
+    "R019"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "R017"
+   ],
+   "predicted_scalar": "Partner Pipeline Dataset",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 0.14285714285714285,
+   "f1": 0.25,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B3-06",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C006",
+    "C009",
+    "C014",
+    "C017",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C047",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057",
+    "C059",
+    "C070"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C049"
+   ],
+   "predicted_scalar": null,
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 0.05263157894736842,
+   "f1": 0.1,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B3-07",
+   "bucket": "B3",
+   "gold": [
+    "C010",
+    "C025",
+    "C042",
+    "C048",
+    "C052"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C042",
+    "C025"
+   ],
+   "predicted_scalar": "APAC Viewer Chapter",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 0.4,
+   "f1": 0.5714285714285715,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B3-08",
+   "bucket": "B3",
+   "gold": [
+    "C002",
+    "C005",
+    "C009",
+    "C010",
+    "C029",
+    "C035",
+    "C038",
+    "C044",
+    "C049",
+    "C050",
+    "C051",
+    "C054",
+    "C055",
+    "C057"
+   ],
+   "gold_scalar": null,
+   "predicted": [
+    "C035"
+   ],
+   "predicted_scalar": "1",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 0.07142857142857142,
+   "f1": 0.13333333333333333,
+   "exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B4-01",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "10",
+   "predicted": [
+    "C028",
+    "C033",
+    "C047",
+    "C053",
+    "C059",
+    "C063",
+    "C065",
+    "C066",
+    "C068",
+    "C069"
+   ],
+   "predicted_scalar": "10",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B4-02",
+   "bucket": "B4",
+   "gold": [
+    "C059"
+   ],
+   "gold_scalar": "Northwind Analytics",
+   "predicted": [
+    "C059"
+   ],
+   "predicted_scalar": "4",
+   "confidence": 0.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B4-03",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [],
+   "predicted_scalar": "6",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B4-04",
+   "bucket": "B4",
+   "gold": [
+    "R019"
+   ],
+   "gold_scalar": "Licence Inventory Dataset",
+   "predicted": [
+    "R019"
+   ],
+   "predicted_scalar": "Licence Inventory Dataset",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B4-05",
+   "bucket": "B4",
+   "gold": [
+    "C007",
+    "C010"
+   ],
+   "gold_scalar": "2 of 5",
+   "predicted": [
+    "C007",
+    "C010"
+   ],
+   "predicted_scalar": null,
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 0.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B4-06",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "40",
+   "predicted": [],
+   "predicted_scalar": "40",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B4-07",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "20",
+   "predicted": [],
+   "predicted_scalar": "20",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B4-08",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "UK",
+   "predicted": [],
+   "predicted_scalar": "UK",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B4-09",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "6",
+   "predicted": [
+    "R004",
+    "R008",
+    "R012",
+    "R016",
+    "R017",
+    "R020"
+   ],
+   "predicted_scalar": "6",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  },
+  {
+   "question_id": "B4-10",
+   "bucket": "B4",
+   "gold": [],
+   "gold_scalar": "19",
+   "predicted": [],
+   "predicted_scalar": "19",
+   "confidence": 1.0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "exact": 1.0,
+   "scalar_exact": 1.0,
+   "arm": "full_context"
+  }
+ ]
+}

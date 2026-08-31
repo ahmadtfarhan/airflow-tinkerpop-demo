@@ -1,0 +1,4206 @@
+[
+ {
+  "doc_id": "DOC-0001",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Vinehall Systems. Region UK, tier Pro, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C001"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C001",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C001",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C001",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0002",
+  "doc_type": "account_profile",
+  "text": "Account review note for Drakemoor Labs. The account is registered in the EU region and currently sits on our Free plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C002"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C002",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C002",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C002",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0003",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Quarry Lane Industries. Region UK, tier Pro, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C003"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C003",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C003",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C003",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0004",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Ravensworth Labs. Region of record is UK. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C004"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C004",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C004",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C004",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0005",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Stonebridge Media. Region of record is UK. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C005"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C005",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C005",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C005",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0006",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Yarrow Analytics. Region of record is MENA. Subscription tier is Pro. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C006"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C006",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C006",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C006",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0007",
+  "doc_type": "account_profile",
+  "text": "Account review note for Quarry Lane Consulting. The account is registered in the UK region and currently sits on our Pro plan. Account status is Churned. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C007"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C007",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C007",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C007",
+    "key": "status",
+    "value": "Churned"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0008",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Kestrel Analytics. Region of record is MENA. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C008"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C008",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C008",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C008",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0009",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Cedar Point Labs. Region of record is US. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C009"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C009",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C009",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C009",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0010",
+  "doc_type": "account_profile",
+  "text": "Account review note for Saltmarsh Industries. The account is registered in the US region and currently sits on our Free plan. Account status is Churned. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C010"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C010",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C010",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C010",
+    "key": "status",
+    "value": "Churned"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0011",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Wildergate Retail Group. Region of record is UK. Subscription tier is Pro. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C011"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C011",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C011",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C011",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0012",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Linden Labs. Region MENA, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C012"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C012",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C012",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C012",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0013",
+  "doc_type": "account_profile",
+  "text": "Account review note for Greyloch Systems. The account is registered in the US region and currently sits on our Free plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C013"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C013",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C013",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C013",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0014",
+  "doc_type": "account_profile",
+  "text": "Account review note for Saltmarsh Consulting. The account is registered in the UK region and currently sits on our Pro plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C014"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C014",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C014",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C014",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0015",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Ironbark Systems. Region of record is UK. Subscription tier is Pro. Present lifecycle status: Prospect. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C015"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C015",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C015",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C015",
+    "key": "status",
+    "value": "Prospect"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0016",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Vantage Industries. Region MENA, tier Pro, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C016"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C016",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C016",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C016",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0017",
+  "doc_type": "account_profile",
+  "text": "Account review note for Chandler Labs. The account is registered in the US region and currently sits on our Pro plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C017"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C017",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C017",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C017",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0018",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Isolde Industries. Region of record is US. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C018"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C018",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C018",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C018",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0019",
+  "doc_type": "account_profile",
+  "text": "Account review note for Kirkwall Systems. The account is registered in the UK region and currently sits on our Pro plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C019"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C019",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C019",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C019",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0020",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Wexford Analytics. Region EU, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C020"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C020",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C020",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C020",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0021",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Silverline Consulting. Region EU, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C021"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C021",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C021",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C021",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0022",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Larkspur Industries. Region of record is UK. Subscription tier is Pro. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C022"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C022",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C022",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C022",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0023",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Verity Consulting. Region US, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C023"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C023",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C023",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C023",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0024",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Halcyon Retail Group. Region US, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C024"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C024",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C024",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C024",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0025",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Redwood Partners. Region MENA, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C025"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C025",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C025",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C025",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0026",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Yarrow Logistics. Region of record is US. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C026"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C026",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C026",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C026",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0027",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Ravensworth Media. Region of record is MENA. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C027"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C027",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C027",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C027",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0028",
+  "doc_type": "account_profile",
+  "text": "Account review note for Vinehall Partners. The account is registered in the EU region and currently sits on our Enterprise plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C028"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C028",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C028",
+    "key": "tier",
+    "value": "Enterprise"
+   },
+   {
+    "kind": "attr",
+    "subject": "C028",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0029",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Halcyon Consulting. Region of record is UK. Subscription tier is Free. Present lifecycle status: Prospect. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C029"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C029",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C029",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C029",
+    "key": "status",
+    "value": "Prospect"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0030",
+  "doc_type": "account_profile",
+  "text": "Account review note for Ivyford Retail Group. The account is registered in the EU region and currently sits on our Free plan. Account status is Churned. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C030"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C030",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C030",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C030",
+    "key": "status",
+    "value": "Churned"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0031",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Inverness Consulting. Region of record is UK. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C031"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C031",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C031",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C031",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0032",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Whitfield Analytics. Region of record is MENA. Subscription tier is Pro. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C032"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C032",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C032",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C032",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0033",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Jarrow Labs. Region UK, tier Enterprise, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C033"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C033",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C033",
+    "key": "tier",
+    "value": "Enterprise"
+   },
+   {
+    "kind": "attr",
+    "subject": "C033",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0034",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Jarrow Logistics. Region US, tier Free, status Churned. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C034"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C034",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C034",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C034",
+    "key": "status",
+    "value": "Churned"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0035",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Nightingale Logistics. Region US, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C035"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C035",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C035",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C035",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0036",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Templeton Holdings. Region US, tier Free, status Prospect. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C036"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C036",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C036",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C036",
+    "key": "status",
+    "value": "Prospect"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0037",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Hollowell Retail Group. Region of record is UK. Subscription tier is Pro. Present lifecycle status: Prospect. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C037"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C037",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C037",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C037",
+    "key": "status",
+    "value": "Prospect"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0038",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Netherby Consulting. Region EU, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C038"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C038",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C038",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C038",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0039",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Marlowe Partners. Region UK, tier Pro, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C039"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C039",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C039",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C039",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0040",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Inverness Partners. Region UK, tier Free, status Prospect. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C040"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C040",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C040",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C040",
+    "key": "status",
+    "value": "Prospect"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0041",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Thornfield Consulting. Region of record is US. Subscription tier is Pro. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C041"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C041",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C041",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C041",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0042",
+  "doc_type": "account_profile",
+  "text": "Account review note for Blue Harbor Systems. The account is registered in the UK region and currently sits on our Free plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C042"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C042",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C042",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C042",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0043",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Hollowell Industries. Region of record is UK. Subscription tier is Free. Present lifecycle status: Prospect. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C043"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C043",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C043",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C043",
+    "key": "status",
+    "value": "Prospect"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0044",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Ravensworth Consulting. Region of record is EU. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C044"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C044",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C044",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C044",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0045",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Quillon Labs. Region of record is EU. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C045"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C045",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C045",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C045",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0046",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Stonebridge Retail Group. Region MENA, tier Pro, status Prospect. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C046"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C046",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C046",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C046",
+    "key": "status",
+    "value": "Prospect"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0047",
+  "doc_type": "account_profile",
+  "text": "Account review note for Tidewater Analytics. The account is registered in the EU region and currently sits on our Enterprise plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C047"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C047",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C047",
+    "key": "tier",
+    "value": "Enterprise"
+   },
+   {
+    "kind": "attr",
+    "subject": "C047",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0048",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Coppersmith Logistics. Region of record is US. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C048"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C048",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C048",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C048",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0049",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Jasperton Systems. Region UK, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C049"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C049",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C049",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C049",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0050",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Ambleside Systems. Region of record is UK. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C050"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C050",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C050",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C050",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0051",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Thornfield Systems. Region of record is EU. Subscription tier is Free. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C051"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C051",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C051",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C051",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0052",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Netherby Analytics. Region UK, tier Pro, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C052"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C052",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C052",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C052",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0053",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Coppersmith Retail Group. Region US, tier Enterprise, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C053"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C053",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C053",
+    "key": "tier",
+    "value": "Enterprise"
+   },
+   {
+    "kind": "attr",
+    "subject": "C053",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0054",
+  "doc_type": "account_profile",
+  "text": "Account review note for Wildergate Partners. The account is registered in the MENA region and currently sits on our Free plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C054"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C054",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C054",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C054",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0055",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Thornfield Labs. Region MENA, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C055"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C055",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C055",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C055",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0056",
+  "doc_type": "account_profile",
+  "text": "Account review note for Hawkridge Partners. The account is registered in the MENA region and currently sits on our Free plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C056"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C056",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C056",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C056",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0057",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Eastgate Retail Group. Region MENA, tier Free, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C057"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C057",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C057",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C057",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0058",
+  "doc_type": "account_profile",
+  "text": "Account review note for Corvus Retail Group. The account is registered in the UK region and currently sits on our Free plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C058"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C058",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C058",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C058",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0059",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Northwind Analytics. Region UK, tier Enterprise, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C059"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C059",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C059",
+    "key": "tier",
+    "value": "Enterprise"
+   },
+   {
+    "kind": "attr",
+    "subject": "C059",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0060",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Everly Media. Region of record is UK. Subscription tier is Pro. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C060"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C060",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C060",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C060",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0061",
+  "doc_type": "account_profile",
+  "text": "Account review note for Kestrel Holdings. The account is registered in the MENA region and currently sits on our Free plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C061"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C061",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C061",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C061",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0062",
+  "doc_type": "account_profile",
+  "text": "Account review note for Ironbark Media. The account is registered in the MENA region and currently sits on our Free plan. Account status is Active. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C062"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C062",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C062",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C062",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0063",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Greyloch Industries. Region MENA, tier Enterprise, status Churned. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C063"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C063",
+    "key": "region",
+    "value": "MENA"
+   },
+   {
+    "kind": "attr",
+    "subject": "C063",
+    "key": "tier",
+    "value": "Enterprise"
+   },
+   {
+    "kind": "attr",
+    "subject": "C063",
+    "key": "status",
+    "value": "Churned"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0064",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Kirkwall Holdings. Region of record is UK. Subscription tier is Pro. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C064"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C064",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C064",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C064",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0065",
+  "doc_type": "account_profile",
+  "text": "Account review note for Ashford Holdings. The account is registered in the UK region and currently sits on our Enterprise plan. Account status is Prospect. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C065"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C065",
+    "key": "region",
+    "value": "UK"
+   },
+   {
+    "kind": "attr",
+    "subject": "C065",
+    "key": "tier",
+    "value": "Enterprise"
+   },
+   {
+    "kind": "attr",
+    "subject": "C065",
+    "key": "status",
+    "value": "Prospect"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0066",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Dovetail Systems. Region EU, tier Enterprise, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C066"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C066",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C066",
+    "key": "tier",
+    "value": "Enterprise"
+   },
+   {
+    "kind": "attr",
+    "subject": "C066",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0067",
+  "doc_type": "account_profile",
+  "text": "Account review note for Oakhaven Partners. The account is registered in the EU region and currently sits on our Free plan. Account status is Prospect. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C067"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C067",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C067",
+    "key": "tier",
+    "value": "Free"
+   },
+   {
+    "kind": "attr",
+    "subject": "C067",
+    "key": "status",
+    "value": "Prospect"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0068",
+  "doc_type": "account_profile",
+  "text": "CRM sync for Yarrow Media. Region EU, tier Enterprise, status Active. Record reconciled against the billing system with no discrepancies. Contact details were verified by phone.",
+  "entities": [
+   "C068"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C068",
+    "key": "region",
+    "value": "EU"
+   },
+   {
+    "kind": "attr",
+    "subject": "C068",
+    "key": "tier",
+    "value": "Enterprise"
+   },
+   {
+    "kind": "attr",
+    "subject": "C068",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0069",
+  "doc_type": "account_profile",
+  "text": "Account review note for Eastgate Systems. The account is registered in the US region and currently sits on our Enterprise plan. Account status is Prospect. The CSM confirmed the billing contact is unchanged this quarter and no plan change has been requested. Filed for the regional book of record.",
+  "entities": [
+   "C069"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C069",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C069",
+    "key": "tier",
+    "value": "Enterprise"
+   },
+   {
+    "kind": "attr",
+    "subject": "C069",
+    "key": "status",
+    "value": "Prospect"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0070",
+  "doc_type": "account_profile",
+  "text": "Onboarding summary: Halcyon Logistics. Region of record is US. Subscription tier is Pro. Present lifecycle status: Active. No outstanding provisioning items. This note captures account metadata only; entitlements are tracked separately by the access team.",
+  "entities": [
+   "C070"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "C070",
+    "key": "region",
+    "value": "US"
+   },
+   {
+    "kind": "attr",
+    "subject": "C070",
+    "key": "tier",
+    "value": "Pro"
+   },
+   {
+    "kind": "attr",
+    "subject": "C070",
+    "key": "status",
+    "value": "Active"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0071",
+  "doc_type": "resource_catalog",
+  "text": "Data catalogue entry: Quarterly Revenue Folder. Asset class is Folder. The information governance team classifies this asset as Internal. Owners must review the classification annually. This entry records the asset itself; who may see it is held in the entitlement register.",
+  "entities": [
+   "R001"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R001",
+    "key": "resource_type",
+    "value": "Folder"
+   },
+   {
+    "kind": "attr",
+    "subject": "R001",
+    "key": "sensitivity",
+    "value": "Internal"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0072",
+  "doc_type": "resource_catalog",
+  "text": "Catalogue registration for Customer Churn Project, a Project asset. Classification: Public. Retention follows the standard schedule for its class. No consumers are listed on this record by design.",
+  "entities": [
+   "R002"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R002",
+    "key": "resource_type",
+    "value": "Project"
+   },
+   {
+    "kind": "attr",
+    "subject": "R002",
+    "key": "sensitivity",
+    "value": "Public"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0073",
+  "doc_type": "resource_catalog",
+  "text": "Catalogue registration for Payroll Dataset, a Dataset asset. Classification: Public. Retention follows the standard schedule for its class. No consumers are listed on this record by design.",
+  "entities": [
+   "R003"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R003",
+    "key": "resource_type",
+    "value": "Dataset"
+   },
+   {
+    "kind": "attr",
+    "subject": "R003",
+    "key": "sensitivity",
+    "value": "Public"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0074",
+  "doc_type": "resource_catalog",
+  "text": "Asset sheet -- Supply Chain Dashboard. Type: Dashboard. Sensitivity tier assigned by governance: Confidential. Last classification review passed without change.",
+  "entities": [
+   "R004"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R004",
+    "key": "resource_type",
+    "value": "Dashboard"
+   },
+   {
+    "kind": "attr",
+    "subject": "R004",
+    "key": "sensitivity",
+    "value": "Confidential"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0075",
+  "doc_type": "resource_catalog",
+  "text": "Data catalogue entry: Quarterly Revenue Report. Asset class is Folder. The information governance team classifies this asset as Public. Owners must review the classification annually. This entry records the asset itself; who may see it is held in the entitlement register.",
+  "entities": [
+   "R005"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R005",
+    "key": "resource_type",
+    "value": "Folder"
+   },
+   {
+    "kind": "attr",
+    "subject": "R005",
+    "key": "sensitivity",
+    "value": "Public"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0076",
+  "doc_type": "resource_catalog",
+  "text": "Data catalogue entry: Incident Postmortem Dataset. Asset class is Dataset. The information governance team classifies this asset as Public. Owners must review the classification annually. This entry records the asset itself; who may see it is held in the entitlement register.",
+  "entities": [
+   "R006"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R006",
+    "key": "resource_type",
+    "value": "Dataset"
+   },
+   {
+    "kind": "attr",
+    "subject": "R006",
+    "key": "sensitivity",
+    "value": "Public"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0077",
+  "doc_type": "resource_catalog",
+  "text": "Asset sheet -- Board Pack Folder. Type: Folder. Sensitivity tier assigned by governance: Internal. Last classification review passed without change.",
+  "entities": [
+   "R007"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R007",
+    "key": "resource_type",
+    "value": "Folder"
+   },
+   {
+    "kind": "attr",
+    "subject": "R007",
+    "key": "sensitivity",
+    "value": "Internal"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0078",
+  "doc_type": "resource_catalog",
+  "text": "Catalogue registration for Pricing Model Folder, a Folder asset. Classification: Confidential. Retention follows the standard schedule for its class. No consumers are listed on this record by design.",
+  "entities": [
+   "R008"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R008",
+    "key": "resource_type",
+    "value": "Folder"
+   },
+   {
+    "kind": "attr",
+    "subject": "R008",
+    "key": "sensitivity",
+    "value": "Confidential"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0079",
+  "doc_type": "resource_catalog",
+  "text": "Asset sheet -- Headcount Plan Folder. Type: Folder. Sensitivity tier assigned by governance: Public. Last classification review passed without change.",
+  "entities": [
+   "R009"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R009",
+    "key": "resource_type",
+    "value": "Folder"
+   },
+   {
+    "kind": "attr",
+    "subject": "R009",
+    "key": "sensitivity",
+    "value": "Public"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0080",
+  "doc_type": "resource_catalog",
+  "text": "Data catalogue entry: Vendor Contracts Report. Asset class is Report. The information governance team classifies this asset as Public. Owners must review the classification annually. This entry records the asset itself; who may see it is held in the entitlement register.",
+  "entities": [
+   "R010"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R010",
+    "key": "resource_type",
+    "value": "Report"
+   },
+   {
+    "kind": "attr",
+    "subject": "R010",
+    "key": "sensitivity",
+    "value": "Public"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0081",
+  "doc_type": "resource_catalog",
+  "text": "Data catalogue entry: Product Telemetry Dashboard. Asset class is Dashboard. The information governance team classifies this asset as Internal. Owners must review the classification annually. This entry records the asset itself; who may see it is held in the entitlement register.",
+  "entities": [
+   "R011"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R011",
+    "key": "resource_type",
+    "value": "Dashboard"
+   },
+   {
+    "kind": "attr",
+    "subject": "R011",
+    "key": "sensitivity",
+    "value": "Internal"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0082",
+  "doc_type": "resource_catalog",
+  "text": "Data catalogue entry: Fraud Signals Report. Asset class is Report. The information governance team classifies this asset as Confidential. Owners must review the classification annually. This entry records the asset itself; who may see it is held in the entitlement register.",
+  "entities": [
+   "R012"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R012",
+    "key": "resource_type",
+    "value": "Report"
+   },
+   {
+    "kind": "attr",
+    "subject": "R012",
+    "key": "sensitivity",
+    "value": "Confidential"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0083",
+  "doc_type": "resource_catalog",
+  "text": "Data catalogue entry: Regional Sales Folder. Asset class is Folder. The information governance team classifies this asset as Public. Owners must review the classification annually. This entry records the asset itself; who may see it is held in the entitlement register.",
+  "entities": [
+   "R013"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R013",
+    "key": "resource_type",
+    "value": "Folder"
+   },
+   {
+    "kind": "attr",
+    "subject": "R013",
+    "key": "sensitivity",
+    "value": "Public"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0084",
+  "doc_type": "resource_catalog",
+  "text": "Asset sheet -- Support Backlog Folder. Type: Folder. Sensitivity tier assigned by governance: Public. Last classification review passed without change.",
+  "entities": [
+   "R014"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R014",
+    "key": "resource_type",
+    "value": "Folder"
+   },
+   {
+    "kind": "attr",
+    "subject": "R014",
+    "key": "sensitivity",
+    "value": "Public"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0085",
+  "doc_type": "resource_catalog",
+  "text": "Catalogue registration for Capacity Forecast Dashboard, a Dashboard asset. Classification: Internal. Retention follows the standard schedule for its class. No consumers are listed on this record by design.",
+  "entities": [
+   "R015"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R015",
+    "key": "resource_type",
+    "value": "Dashboard"
+   },
+   {
+    "kind": "attr",
+    "subject": "R015",
+    "key": "sensitivity",
+    "value": "Internal"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0086",
+  "doc_type": "resource_catalog",
+  "text": "Data catalogue entry: Audit Trail Folder. Asset class is Folder. The information governance team classifies this asset as Confidential. Owners must review the classification annually. This entry records the asset itself; who may see it is held in the entitlement register.",
+  "entities": [
+   "R016"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R016",
+    "key": "resource_type",
+    "value": "Folder"
+   },
+   {
+    "kind": "attr",
+    "subject": "R016",
+    "key": "sensitivity",
+    "value": "Confidential"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0087",
+  "doc_type": "resource_catalog",
+  "text": "Data catalogue entry: Partner Pipeline Dataset. Asset class is Dataset. The information governance team classifies this asset as Confidential. Owners must review the classification annually. This entry records the asset itself; who may see it is held in the entitlement register.",
+  "entities": [
+   "R017"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R017",
+    "key": "resource_type",
+    "value": "Dataset"
+   },
+   {
+    "kind": "attr",
+    "subject": "R017",
+    "key": "sensitivity",
+    "value": "Confidential"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0088",
+  "doc_type": "resource_catalog",
+  "text": "Data catalogue entry: Churn Risk Report. Asset class is Report. The information governance team classifies this asset as Internal. Owners must review the classification annually. This entry records the asset itself; who may see it is held in the entitlement register.",
+  "entities": [
+   "R018"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R018",
+    "key": "resource_type",
+    "value": "Report"
+   },
+   {
+    "kind": "attr",
+    "subject": "R018",
+    "key": "sensitivity",
+    "value": "Internal"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0089",
+  "doc_type": "resource_catalog",
+  "text": "Catalogue registration for Licence Inventory Dataset, a Dataset asset. Classification: Public. Retention follows the standard schedule for its class. No consumers are listed on this record by design.",
+  "entities": [
+   "R019"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R019",
+    "key": "resource_type",
+    "value": "Dataset"
+   },
+   {
+    "kind": "attr",
+    "subject": "R019",
+    "key": "sensitivity",
+    "value": "Public"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0090",
+  "doc_type": "resource_catalog",
+  "text": "Catalogue registration for Security Review Project, a Project asset. Classification: Confidential. Retention follows the standard schedule for its class. No consumers are listed on this record by design.",
+  "entities": [
+   "R020"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "R020",
+    "key": "resource_type",
+    "value": "Project"
+   },
+   {
+    "kind": "attr",
+    "subject": "R020",
+    "key": "sensitivity",
+    "value": "Confidential"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0091",
+  "doc_type": "group_charter",
+  "text": "Terms of reference for EMEA Viewer Council. Role profile: Viewer. The group meets fortnightly. Joiners and leavers are handled through the access request process rather than this document.",
+  "entities": [
+   "G001"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "G001",
+    "key": "role",
+    "value": "Viewer"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0092",
+  "doc_type": "group_charter",
+  "text": "Terms of reference for AMER Support Working Group. Role profile: Support. The group meets fortnightly. Joiners and leavers are handled through the access request process rather than this document.",
+  "entities": [
+   "G002"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "G002",
+    "key": "role",
+    "value": "Support"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0093",
+  "doc_type": "group_charter",
+  "text": "Charter: APAC Viewer Chapter. The group operates with the Viewer role profile. Its remit is set annually by the governance board. Membership is administered separately and is not recorded in this charter.",
+  "entities": [
+   "G003"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "G003",
+    "key": "role",
+    "value": "Viewer"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0094",
+  "doc_type": "group_charter",
+  "text": "Terms of reference for Global Admin Chapter. Role profile: Admin. The group meets fortnightly. Joiners and leavers are handled through the access request process rather than this document.",
+  "entities": [
+   "G004"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "G004",
+    "key": "role",
+    "value": "Admin"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0095",
+  "doc_type": "group_charter",
+  "text": "Terms of reference for UK Admin Guild. Role profile: Admin. The group meets fortnightly. Joiners and leavers are handled through the access request process rather than this document.",
+  "entities": [
+   "G005"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "G005",
+    "key": "role",
+    "value": "Admin"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0096",
+  "doc_type": "group_charter",
+  "text": "Charter: Nordics Support Circle. The group operates with the Support role profile. Its remit is set annually by the governance board. Membership is administered separately and is not recorded in this charter.",
+  "entities": [
+   "G006"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "G006",
+    "key": "role",
+    "value": "Support"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0097",
+  "doc_type": "group_charter",
+  "text": "Terms of reference for Iberia Admin Working Group. Role profile: Admin. The group meets fortnightly. Joiners and leavers are handled through the access request process rather than this document.",
+  "entities": [
+   "G007"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "G007",
+    "key": "role",
+    "value": "Admin"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0098",
+  "doc_type": "group_charter",
+  "text": "Charter: Benelux Admin Guild. The group operates with the Admin role profile. Its remit is set annually by the governance board. Membership is administered separately and is not recorded in this charter.",
+  "entities": [
+   "G008"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "G008",
+    "key": "role",
+    "value": "Admin"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0099",
+  "doc_type": "group_charter",
+  "text": "Charter: DACH Analyst Council. The group operates with the Analyst role profile. Its remit is set annually by the governance board. Membership is administered separately and is not recorded in this charter.",
+  "entities": [
+   "G009"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "G009",
+    "key": "role",
+    "value": "Analyst"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0100",
+  "doc_type": "group_charter",
+  "text": "Charter: MENA Viewer Working Group. The group operates with the Viewer role profile. Its remit is set annually by the governance board. Membership is administered separately and is not recorded in this charter.",
+  "entities": [
+   "G010"
+  ],
+  "asserts": [
+   {
+    "kind": "attr",
+    "subject": "G010",
+    "key": "role",
+    "value": "Viewer"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0101",
+  "doc_type": "relationship",
+  "text": "Ticket: account linkage query. The requester asked us to confirm the tie between Stonebridge Media and Halcyon Logistics. Verified with the regional lead -- the two are part of the same parent organisation. Strength of the relationship is recorded as 2 of 5. Closing as confirmed.",
+  "entities": [
+   "C005",
+   "C070"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C005",
+    "b": "C070",
+    "sub_type": "SAME_ORG_AS",
+    "strength": 2
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0102",
+  "doc_type": "relationship",
+  "text": "Referral note. Yarrow Media was discussed alongside Ravensworth Labs at this week's pipeline review. The two are part of the same parent organisation, which is why they are reviewed together. Relationship strength currently 1/5. Filed against both accounts.",
+  "entities": [
+   "C004",
+   "C068"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C004",
+    "b": "C068",
+    "sub_type": "SAME_ORG_AS",
+    "strength": 1
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0103",
+  "doc_type": "relationship",
+  "text": "Call summary. Spoke with the account team covering Halcyon Consulting. They confirmed that Halcyon Consulting and Northwind Analytics share a buying committee, and one clearly influences the other. The relationship has been in place for some time and the team rates its commercial strength at 3 out of 5. Action: reflect the link on both account records. No entitlement changes were discussed on this call.",
+  "entities": [
+   "C029",
+   "C059"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C029",
+    "b": "C059",
+    "sub_type": "INFLUENCED_BY",
+    "strength": 3
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0104",
+  "doc_type": "relationship",
+  "text": "Referral note. Wildergate Partners was discussed alongside Tidewater Analytics at this week's pipeline review. The two operate as connected accounts, which is why they are reviewed together. Relationship strength currently 5/5. Filed against both accounts.",
+  "entities": [
+   "C047",
+   "C054"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C047",
+    "b": "C054",
+    "sub_type": "CONNECTED_TO",
+    "strength": 5
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0105",
+  "doc_type": "relationship",
+  "text": "Referral note. Halcyon Retail Group was discussed alongside Silverline Consulting at this week's pipeline review. The two came to us through a referral between the two, which is why they are reviewed together. Relationship strength currently 1/5. Filed against both accounts.",
+  "entities": [
+   "C021",
+   "C024"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C021",
+    "b": "C024",
+    "sub_type": "REFERRED",
+    "strength": 1
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0106",
+  "doc_type": "relationship",
+  "text": "Call summary. Spoke with the account team covering Drakemoor Labs. They confirmed that Drakemoor Labs and Thornfield Labs are part of the same parent organisation. The relationship has been in place for some time and the team rates its commercial strength at 4 out of 5. Action: reflect the link on both account records. No entitlement changes were discussed on this call.",
+  "entities": [
+   "C002",
+   "C055"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C002",
+    "b": "C055",
+    "sub_type": "SAME_ORG_AS",
+    "strength": 4
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0107",
+  "doc_type": "relationship",
+  "text": "Ticket: account linkage query. The requester asked us to confirm the tie between Netherby Consulting and Ambleside Systems. Verified with the regional lead -- the two operate as connected accounts. Strength of the relationship is recorded as 1 of 5. Closing as confirmed.",
+  "entities": [
+   "C038",
+   "C050"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C038",
+    "b": "C050",
+    "sub_type": "CONNECTED_TO",
+    "strength": 1
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0108",
+  "doc_type": "relationship",
+  "text": "Referral note. Northwind Analytics was discussed alongside Yarrow Analytics at this week's pipeline review. The two came to us through a referral between the two, which is why they are reviewed together. Relationship strength currently 5/5. Filed against both accounts.",
+  "entities": [
+   "C006",
+   "C059"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C006",
+    "b": "C059",
+    "sub_type": "REFERRED",
+    "strength": 5
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0109",
+  "doc_type": "relationship",
+  "text": "Call summary. Spoke with the account team covering Saltmarsh Consulting. They confirmed that Saltmarsh Consulting and Eastgate Retail Group came to us through a referral between the two. The relationship has been in place for some time and the team rates its commercial strength at 4 out of 5. Action: reflect the link on both account records. No entitlement changes were discussed on this call.",
+  "entities": [
+   "C014",
+   "C057"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C014",
+    "b": "C057",
+    "sub_type": "REFERRED",
+    "strength": 4
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0110",
+  "doc_type": "relationship",
+  "text": "Referral note. Thornfield Systems was discussed alongside Jasperton Systems at this week's pipeline review. The two came to us through a referral between the two, which is why they are reviewed together. Relationship strength currently 3/5. Filed against both accounts.",
+  "entities": [
+   "C049",
+   "C051"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C049",
+    "b": "C051",
+    "sub_type": "REFERRED",
+    "strength": 3
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0111",
+  "doc_type": "relationship",
+  "text": "Ticket: account linkage query. The requester asked us to confirm the tie between Nightingale Logistics and Halcyon Logistics. Verified with the regional lead -- the two are part of the same parent organisation. Strength of the relationship is recorded as 1 of 5. Closing as confirmed.",
+  "entities": [
+   "C035",
+   "C070"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C035",
+    "b": "C070",
+    "sub_type": "SAME_ORG_AS",
+    "strength": 1
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0112",
+  "doc_type": "relationship",
+  "text": "Referral note. Yarrow Analytics was discussed alongside Drakemoor Labs at this week's pipeline review. The two came to us through a referral between the two, which is why they are reviewed together. Relationship strength currently 2/5. Filed against both accounts.",
+  "entities": [
+   "C002",
+   "C006"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C002",
+    "b": "C006",
+    "sub_type": "REFERRED",
+    "strength": 2
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0113",
+  "doc_type": "relationship",
+  "text": "Ticket: account linkage query. The requester asked us to confirm the tie between Yarrow Analytics and Nightingale Logistics. Verified with the regional lead -- the two operate as connected accounts. Strength of the relationship is recorded as 4 of 5. Closing as confirmed.",
+  "entities": [
+   "C006",
+   "C035"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C006",
+    "b": "C035",
+    "sub_type": "CONNECTED_TO",
+    "strength": 4
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0114",
+  "doc_type": "relationship",
+  "text": "Call summary. Spoke with the account team covering Nightingale Logistics. They confirmed that Nightingale Logistics and Ravensworth Consulting came to us through a referral between the two. The relationship has been in place for some time and the team rates its commercial strength at 5 out of 5. Action: reflect the link on both account records. No entitlement changes were discussed on this call.",
+  "entities": [
+   "C035",
+   "C044"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C035",
+    "b": "C044",
+    "sub_type": "REFERRED",
+    "strength": 5
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0115",
+  "doc_type": "relationship",
+  "text": "Call summary. Spoke with the account team covering Cedar Point Labs. They confirmed that Cedar Point Labs and Northwind Analytics came to us through a referral between the two. The relationship has been in place for some time and the team rates its commercial strength at 4 out of 5. Action: reflect the link on both account records. No entitlement changes were discussed on this call.",
+  "entities": [
+   "C009",
+   "C059"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C009",
+    "b": "C059",
+    "sub_type": "REFERRED",
+    "strength": 4
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0116",
+  "doc_type": "relationship",
+  "text": "Call summary. Spoke with the account team covering Chandler Labs. They confirmed that Chandler Labs and Northwind Analytics came to us through a referral between the two. The relationship has been in place for some time and the team rates its commercial strength at 5 out of 5. Action: reflect the link on both account records. No entitlement changes were discussed on this call.",
+  "entities": [
+   "C017",
+   "C059"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C017",
+    "b": "C059",
+    "sub_type": "REFERRED",
+    "strength": 5
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0117",
+  "doc_type": "relationship",
+  "text": "Call summary. Spoke with the account team covering Jarrow Labs. They confirmed that Jarrow Labs and Yarrow Media are part of the same parent organisation. The relationship has been in place for some time and the team rates its commercial strength at 3 out of 5. Action: reflect the link on both account records. No entitlement changes were discussed on this call.",
+  "entities": [
+   "C033",
+   "C068"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C033",
+    "b": "C068",
+    "sub_type": "SAME_ORG_AS",
+    "strength": 3
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0118",
+  "doc_type": "relationship",
+  "text": "Ticket: account linkage query. The requester asked us to confirm the tie between Ravensworth Consulting and Eastgate Retail Group. Verified with the regional lead -- the two share a buying committee, and one clearly influences the other. Strength of the relationship is recorded as 4 of 5. Closing as confirmed.",
+  "entities": [
+   "C044",
+   "C057"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C044",
+    "b": "C057",
+    "sub_type": "INFLUENCED_BY",
+    "strength": 4
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0119",
+  "doc_type": "relationship",
+  "text": "Referral note. Inverness Partners was discussed alongside Wildergate Retail Group at this week's pipeline review. The two are part of the same parent organisation, which is why they are reviewed together. Relationship strength currently 3/5. Filed against both accounts.",
+  "entities": [
+   "C011",
+   "C040"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C011",
+    "b": "C040",
+    "sub_type": "SAME_ORG_AS",
+    "strength": 3
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0120",
+  "doc_type": "relationship",
+  "text": "Referral note. Yarrow Media was discussed alongside Hollowell Industries at this week's pipeline review. The two are part of the same parent organisation, which is why they are reviewed together. Relationship strength currently 3/5. Filed against both accounts.",
+  "entities": [
+   "C043",
+   "C068"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C043",
+    "b": "C068",
+    "sub_type": "SAME_ORG_AS",
+    "strength": 3
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0121",
+  "doc_type": "relationship",
+  "text": "Ticket: account linkage query. The requester asked us to confirm the tie between Jasperton Systems and Northwind Analytics. Verified with the regional lead -- the two share a buying committee, and one clearly influences the other. Strength of the relationship is recorded as 4 of 5. Closing as confirmed.",
+  "entities": [
+   "C049",
+   "C059"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C049",
+    "b": "C059",
+    "sub_type": "INFLUENCED_BY",
+    "strength": 4
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0122",
+  "doc_type": "relationship",
+  "text": "Call summary. Spoke with the account team covering Quarry Lane Industries. They confirmed that Quarry Lane Industries and Oakhaven Partners operate as connected accounts. The relationship has been in place for some time and the team rates its commercial strength at 4 out of 5. Action: reflect the link on both account records. No entitlement changes were discussed on this call.",
+  "entities": [
+   "C003",
+   "C067"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C003",
+    "b": "C067",
+    "sub_type": "CONNECTED_TO",
+    "strength": 4
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0123",
+  "doc_type": "relationship",
+  "text": "Referral note. Coppersmith Logistics was discussed alongside Redwood Partners at this week's pipeline review. The two are part of the same parent organisation, which is why they are reviewed together. Relationship strength currently 2/5. Filed against both accounts.",
+  "entities": [
+   "C025",
+   "C048"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C025",
+    "b": "C048",
+    "sub_type": "SAME_ORG_AS",
+    "strength": 2
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0124",
+  "doc_type": "relationship",
+  "text": "Ticket: account linkage query. The requester asked us to confirm the tie between Ambleside Systems and Halcyon Logistics. Verified with the regional lead -- the two are part of the same parent organisation. Strength of the relationship is recorded as 3 of 5. Closing as confirmed.",
+  "entities": [
+   "C050",
+   "C070"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C050",
+    "b": "C070",
+    "sub_type": "SAME_ORG_AS",
+    "strength": 3
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0125",
+  "doc_type": "relationship",
+  "text": "Ticket: account linkage query. The requester asked us to confirm the tie between Tidewater Analytics and Northwind Analytics. Verified with the regional lead -- the two share a buying committee, and one clearly influences the other. Strength of the relationship is recorded as 1 of 5. Closing as confirmed.",
+  "entities": [
+   "C047",
+   "C059"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "CUSTOMER_LINK",
+    "a": "C047",
+    "b": "C059",
+    "sub_type": "INFLUENCED_BY",
+    "strength": 1
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0126",
+  "doc_type": "access",
+  "text": "Access request -- APPROVED. Chandler Labs requested access to Licence Inventory Dataset. The data owner signed off and the entitlement has been provisioned at WRITE level. The requester completed the handling training before the grant was issued. Ticket closed.",
+  "entities": [
+   "C017",
+   "R019"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C017",
+    "b": "R019",
+    "permission": "WRITE"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0127",
+  "doc_type": "access",
+  "text": "Entitlement change confirmation. Nightingale Logistics now holds READ access to Pricing Model Folder, effective immediately. Provisioned by the access team following owner approval. Review date set per the standard cycle.",
+  "entities": [
+   "C035",
+   "R008"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C035",
+    "b": "R008",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0128",
+  "doc_type": "access",
+  "text": "Access request -- APPROVED. Isolde Industries requested access to Capacity Forecast Dashboard. The data owner signed off and the entitlement has been provisioned at WRITE level. The requester completed the handling training before the grant was issued. Ticket closed.",
+  "entities": [
+   "C018",
+   "R015"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C018",
+    "b": "R015",
+    "permission": "WRITE"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0129",
+  "doc_type": "access",
+  "text": "Entitlement change confirmation. Stonebridge Media now holds WRITE access to Capacity Forecast Dashboard, effective immediately. Provisioned by the access team following owner approval. Review date set per the standard cycle.",
+  "entities": [
+   "C005",
+   "R015"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C005",
+    "b": "R015",
+    "permission": "WRITE"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0130",
+  "doc_type": "access",
+  "text": "Email thread summary: Kestrel Analytics asked to be added to Headcount Plan Folder. Approved. Permission level granted: READ. No other assets were included in this request.",
+  "entities": [
+   "C008",
+   "R009"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C008",
+    "b": "R009",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0131",
+  "doc_type": "access",
+  "text": "Access request -- APPROVED. Tidewater Analytics requested access to Partner Pipeline Dataset. The data owner signed off and the entitlement has been provisioned at READ level. The requester completed the handling training before the grant was issued. Ticket closed.",
+  "entities": [
+   "C047",
+   "R017"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C047",
+    "b": "R017",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0132",
+  "doc_type": "access",
+  "text": "Access request -- APPROVED. Silverline Consulting requested access to Churn Risk Report. The data owner signed off and the entitlement has been provisioned at READ level. The requester completed the handling training before the grant was issued. Ticket closed.",
+  "entities": [
+   "C021",
+   "R018"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C021",
+    "b": "R018",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0133",
+  "doc_type": "access",
+  "text": "Entitlement change confirmation. Blue Harbor Systems now holds READ access to Board Pack Folder, effective immediately. Provisioned by the access team following owner approval. Review date set per the standard cycle.",
+  "entities": [
+   "C042",
+   "R007"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C042",
+    "b": "R007",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0134",
+  "doc_type": "access",
+  "text": "Email thread summary: Marlowe Partners asked to be added to Customer Churn Project. Approved. Permission level granted: READ. No other assets were included in this request.",
+  "entities": [
+   "C039",
+   "R002"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C039",
+    "b": "R002",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0135",
+  "doc_type": "access",
+  "text": "Access request -- APPROVED. Saltmarsh Industries requested access to Headcount Plan Folder. The data owner signed off and the entitlement has been provisioned at READ level. The requester completed the handling training before the grant was issued. Ticket closed.",
+  "entities": [
+   "C010",
+   "R009"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C010",
+    "b": "R009",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0136",
+  "doc_type": "access",
+  "text": "Entitlement change confirmation. Inverness Partners now holds WRITE access to Product Telemetry Dashboard, effective immediately. Provisioned by the access team following owner approval. Review date set per the standard cycle.",
+  "entities": [
+   "C040",
+   "R011"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C040",
+    "b": "R011",
+    "permission": "WRITE"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0137",
+  "doc_type": "access",
+  "text": "Entitlement change confirmation. Inverness Consulting now holds WRITE access to Licence Inventory Dataset, effective immediately. Provisioned by the access team following owner approval. Review date set per the standard cycle.",
+  "entities": [
+   "C031",
+   "R019"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C031",
+    "b": "R019",
+    "permission": "WRITE"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0138",
+  "doc_type": "access",
+  "text": "Entitlement change confirmation. Vantage Industries now holds READ access to Customer Churn Project, effective immediately. Provisioned by the access team following owner approval. Review date set per the standard cycle.",
+  "entities": [
+   "C016",
+   "R002"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C016",
+    "b": "R002",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0139",
+  "doc_type": "access",
+  "text": "Email thread summary: Wildergate Retail Group asked to be added to Support Backlog Folder. Approved. Permission level granted: READ. No other assets were included in this request.",
+  "entities": [
+   "C011",
+   "R014"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C011",
+    "b": "R014",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0140",
+  "doc_type": "access",
+  "text": "Email thread summary: Isolde Industries asked to be added to Vendor Contracts Report. Approved. Permission level granted: READ. No other assets were included in this request.",
+  "entities": [
+   "C018",
+   "R010"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C018",
+    "b": "R010",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0141",
+  "doc_type": "access",
+  "text": "Email thread summary: Redwood Partners asked to be added to Board Pack Folder. Approved. Permission level granted: READ. No other assets were included in this request.",
+  "entities": [
+   "C025",
+   "R007"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C025",
+    "b": "R007",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0142",
+  "doc_type": "access",
+  "text": "Entitlement change confirmation. Ashford Holdings now holds READ access to Customer Churn Project, effective immediately. Provisioned by the access team following owner approval. Review date set per the standard cycle.",
+  "entities": [
+   "C065",
+   "R002"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C065",
+    "b": "R002",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0143",
+  "doc_type": "access",
+  "text": "Access request -- APPROVED. Jasperton Systems requested access to Quarterly Revenue Report. The data owner signed off and the entitlement has been provisioned at READ level. The requester completed the handling training before the grant was issued. Ticket closed.",
+  "entities": [
+   "C049",
+   "R005"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C049",
+    "b": "R005",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0144",
+  "doc_type": "access",
+  "text": "Entitlement change confirmation. Hollowell Retail Group now holds WRITE access to Support Backlog Folder, effective immediately. Provisioned by the access team following owner approval. Review date set per the standard cycle.",
+  "entities": [
+   "C037",
+   "R014"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C037",
+    "b": "R014",
+    "permission": "WRITE"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0145",
+  "doc_type": "access",
+  "text": "Entitlement change confirmation. Larkspur Industries now holds WRITE access to Partner Pipeline Dataset, effective immediately. Provisioned by the access team following owner approval. Review date set per the standard cycle.",
+  "entities": [
+   "C022",
+   "R017"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C022",
+    "b": "R017",
+    "permission": "WRITE"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0146",
+  "doc_type": "membership",
+  "text": "Membership confirmation. Corvus Retail Group joined Nordics Support Circle this cycle. The chair confirmed the seat. This note records membership only.",
+  "entities": [
+   "C058",
+   "G006"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C058",
+    "b": "G006"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0147",
+  "doc_type": "membership",
+  "text": "Membership confirmation. Kirkwall Holdings joined AMER Support Working Group this cycle. The chair confirmed the seat. This note records membership only.",
+  "entities": [
+   "C064",
+   "G002"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C064",
+    "b": "G002"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0148",
+  "doc_type": "membership",
+  "text": "Ticket: add to working group. Saltmarsh Industries has been enrolled as a member of UK Admin Guild following approval from the group chair. Enrolment is recorded against the account. Any entitlements that follow from membership are administered by the group itself.",
+  "entities": [
+   "C010",
+   "G005"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C010",
+    "b": "G005"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0149",
+  "doc_type": "membership",
+  "text": "Ticket: add to working group. Vinehall Partners has been enrolled as a member of MENA Viewer Working Group following approval from the group chair. Enrolment is recorded against the account. Any entitlements that follow from membership are administered by the group itself.",
+  "entities": [
+   "C028",
+   "G010"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C028",
+    "b": "G010"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0150",
+  "doc_type": "membership",
+  "text": "Ticket: add to working group. Silverline Consulting has been enrolled as a member of AMER Support Working Group following approval from the group chair. Enrolment is recorded against the account. Any entitlements that follow from membership are administered by the group itself.",
+  "entities": [
+   "C021",
+   "G002"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C021",
+    "b": "G002"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0151",
+  "doc_type": "membership",
+  "text": "Membership confirmation. Blue Harbor Systems joined Benelux Admin Guild this cycle. The chair confirmed the seat. This note records membership only.",
+  "entities": [
+   "C042",
+   "G008"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C042",
+    "b": "G008"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0152",
+  "doc_type": "membership",
+  "text": "Membership confirmation. Ivyford Retail Group joined Iberia Admin Working Group this cycle. The chair confirmed the seat. This note records membership only.",
+  "entities": [
+   "C030",
+   "G007"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C030",
+    "b": "G007"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0153",
+  "doc_type": "membership",
+  "text": "Membership confirmation. Ambleside Systems joined AMER Support Working Group this cycle. The chair confirmed the seat. This note records membership only.",
+  "entities": [
+   "C050",
+   "G002"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C050",
+    "b": "G002"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0154",
+  "doc_type": "membership",
+  "text": "Ticket: add to working group. Netherby Analytics has been enrolled as a member of APAC Viewer Chapter following approval from the group chair. Enrolment is recorded against the account. Any entitlements that follow from membership are administered by the group itself.",
+  "entities": [
+   "C052",
+   "G003"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C052",
+    "b": "G003"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0155",
+  "doc_type": "membership",
+  "text": "Ticket: add to working group. Wildergate Partners has been enrolled as a member of UK Admin Guild following approval from the group chair. Enrolment is recorded against the account. Any entitlements that follow from membership are administered by the group itself.",
+  "entities": [
+   "C054",
+   "G005"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C054",
+    "b": "G005"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0156",
+  "doc_type": "grant",
+  "text": "Entitlement register update: group-level grant. Global Admin Chapter -> Regional Sales Folder, permission READ. Inherited by the group's membership. Reviewed annually by the data owner.",
+  "entities": [
+   "G004",
+   "R013"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "GRANTS",
+    "a": "G004",
+    "b": "R013",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0157",
+  "doc_type": "grant",
+  "text": "Entitlement register update: group-level grant. UK Admin Guild -> Product Telemetry Dashboard, permission ADMIN. Inherited by the group's membership. Reviewed annually by the data owner.",
+  "entities": [
+   "G005",
+   "R011"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "GRANTS",
+    "a": "G005",
+    "b": "R011",
+    "permission": "ADMIN"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0158",
+  "doc_type": "grant",
+  "text": "Governance memo. DACH Analyst Council has been granted WRITE access to Support Backlog Folder at the group level. Any member of the group inherits this entitlement for as long as their membership stands. Individual members are not enumerated here.",
+  "entities": [
+   "G009",
+   "R014"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "GRANTS",
+    "a": "G009",
+    "b": "R014",
+    "permission": "WRITE"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0159",
+  "doc_type": "grant",
+  "text": "Governance memo. APAC Viewer Chapter has been granted READ access to Support Backlog Folder at the group level. Any member of the group inherits this entitlement for as long as their membership stands. Individual members are not enumerated here.",
+  "entities": [
+   "G003",
+   "R014"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "GRANTS",
+    "a": "G003",
+    "b": "R014",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0160",
+  "doc_type": "grant",
+  "text": "Entitlement register update: group-level grant. APAC Viewer Chapter -> Fraud Signals Report, permission READ. Inherited by the group's membership. Reviewed annually by the data owner.",
+  "entities": [
+   "G003",
+   "R012"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "GRANTS",
+    "a": "G003",
+    "b": "R012",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0161",
+  "doc_type": "grant",
+  "text": "Entitlement register update: group-level grant. AMER Support Working Group -> Licence Inventory Dataset, permission WRITE. Inherited by the group's membership. Reviewed annually by the data owner.",
+  "entities": [
+   "G002",
+   "R019"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "GRANTS",
+    "a": "G002",
+    "b": "R019",
+    "permission": "WRITE"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0162",
+  "doc_type": "grant",
+  "text": "Governance memo. APAC Viewer Chapter has been granted READ access to Board Pack Folder at the group level. Any member of the group inherits this entitlement for as long as their membership stands. Individual members are not enumerated here.",
+  "entities": [
+   "G003",
+   "R007"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "GRANTS",
+    "a": "G003",
+    "b": "R007",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0163",
+  "doc_type": "grant",
+  "text": "Governance memo. UK Admin Guild has been granted READ access to Churn Risk Report at the group level. Any member of the group inherits this entitlement for as long as their membership stands. Individual members are not enumerated here.",
+  "entities": [
+   "G005",
+   "R018"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "GRANTS",
+    "a": "G005",
+    "b": "R018",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0164",
+  "doc_type": "access",
+  "text": "Access request -- APPROVED. Quarry Lane Consulting requested access to Supply Chain Dashboard. The data owner signed off and the entitlement has been provisioned at READ level. The requester completed the handling training before the grant was issued. Ticket closed.",
+  "entities": [
+   "C007",
+   "R004"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "ACCESS",
+    "a": "C007",
+    "b": "R004",
+    "permission": "READ"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0165",
+  "doc_type": "membership",
+  "text": "Ticket: add to working group. Saltmarsh Industries has been enrolled as a member of APAC Viewer Chapter following approval from the group chair. Enrolment is recorded against the account. Any entitlements that follow from membership are administered by the group itself.",
+  "entities": [
+   "C010",
+   "G003"
+  ],
+  "asserts": [
+   {
+    "kind": "edge",
+    "relation_type": "MEMBER",
+    "a": "C010",
+    "b": "G003"
+   }
+  ]
+ },
+ {
+  "doc_id": "DOC-0166",
+  "doc_type": "distractor_latency",
+  "text": "Performance complaint from Vinehall Systems. Users reported that dashboards were slow to load between 09:00 and 11:00 on Tuesday. Traced to a regional cache warm-up. Mitigated the same day and the customer confirmed recovery.",
+  "entities": [
+   "C001"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0167",
+  "doc_type": "distractor_latency",
+  "text": "Performance complaint from Kestrel Analytics. Users reported that dashboards were slow to load between 09:00 and 11:00 on Tuesday. Traced to a regional cache warm-up. Mitigated the same day and the customer confirmed recovery.",
+  "entities": [
+   "C008"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0168",
+  "doc_type": "distractor_outage",
+  "text": "Incident note. Ironbark Systems was affected by the partial outage on the shared ingestion tier. Service was restored within the hour and a summary was shared with their team.",
+  "entities": [
+   "C015"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0169",
+  "doc_type": "distractor_billing",
+  "text": "Billing query from Larkspur Industries. The finance contact asked why the invoice arrived three days later than usual. Confirmed this was a scheduling change on our side, not a change to their agreement. No action required.",
+  "entities": [
+   "C022"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0170",
+  "doc_type": "distractor_billing",
+  "text": "Billing query from Halcyon Consulting. The finance contact asked why the invoice arrived three days later than usual. Confirmed this was a scheduling change on our side, not a change to their agreement. No action required.",
+  "entities": [
+   "C029"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0171",
+  "doc_type": "distractor_training",
+  "text": "Training session delivered to Templeton Holdings. Covered report building and sharing etiquette. Attendance was good and the recording has been made available to them.",
+  "entities": [
+   "C036"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0172",
+  "doc_type": "distractor_renewal",
+  "text": "Renewal conversation with Hollowell Industries. The account is tracking to renew on the usual terms. Procurement asked for a copy of the security whitepaper, which has been sent.",
+  "entities": [
+   "C043"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0173",
+  "doc_type": "distractor_password",
+  "text": "Password reset for a user at Ambleside Systems. Identity verified over the phone against the account security questions. Reset link issued and confirmed used. No entitlement change was made as part of this ticket.",
+  "entities": [
+   "C050"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0174",
+  "doc_type": "distractor_feature",
+  "text": "Feature request logged by Eastgate Retail Group. They would like scheduled exports in their own timezone rather than UTC. Passed to product for triage. No commitment given on timing.",
+  "entities": [
+   "C057"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0175",
+  "doc_type": "distractor_onboarding",
+  "text": "Onboarding check-in with Kirkwall Holdings. Walked through the getting-started material and answered questions about the admin console. The team is comfortable proceeding. Follow up in two weeks.",
+  "entities": [
+   "C064"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0176",
+  "doc_type": "distractor_latency",
+  "text": "Performance complaint from Vinehall Systems. Users reported that dashboards were slow to load between 09:00 and 11:00 on Tuesday. Traced to a regional cache warm-up. Mitigated the same day and the customer confirmed recovery.",
+  "entities": [
+   "C001"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0177",
+  "doc_type": "distractor_outage",
+  "text": "Incident note. Kestrel Analytics was affected by the partial outage on the shared ingestion tier. Service was restored within the hour and a summary was shared with their team.",
+  "entities": [
+   "C008"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0178",
+  "doc_type": "distractor_billing",
+  "text": "Billing query from Ironbark Systems. The finance contact asked why the invoice arrived three days later than usual. Confirmed this was a scheduling change on our side, not a change to their agreement. No action required.",
+  "entities": [
+   "C015"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0179",
+  "doc_type": "distractor_billing",
+  "text": "Billing query from Larkspur Industries. The finance contact asked why the invoice arrived three days later than usual. Confirmed this was a scheduling change on our side, not a change to their agreement. No action required.",
+  "entities": [
+   "C022"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0180",
+  "doc_type": "distractor_onboarding",
+  "text": "Onboarding check-in with Halcyon Consulting. Walked through the getting-started material and answered questions about the admin console. The team is comfortable proceeding. Follow up in two weeks.",
+  "entities": [
+   "C029"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0181",
+  "doc_type": "distractor_outage",
+  "text": "Incident note. Templeton Holdings was affected by the partial outage on the shared ingestion tier. Service was restored within the hour and a summary was shared with their team.",
+  "entities": [
+   "C036"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0182",
+  "doc_type": "distractor_renewal",
+  "text": "Renewal conversation with Hollowell Industries. The account is tracking to renew on the usual terms. Procurement asked for a copy of the security whitepaper, which has been sent.",
+  "entities": [
+   "C043"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0183",
+  "doc_type": "distractor_feature",
+  "text": "Feature request logged by Ambleside Systems. They would like scheduled exports in their own timezone rather than UTC. Passed to product for triage. No commitment given on timing.",
+  "entities": [
+   "C050"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0184",
+  "doc_type": "distractor_password",
+  "text": "Password reset for a user at Eastgate Retail Group. Identity verified over the phone against the account security questions. Reset link issued and confirmed used. No entitlement change was made as part of this ticket.",
+  "entities": [
+   "C057"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0185",
+  "doc_type": "distractor_onboarding",
+  "text": "Onboarding check-in with Kirkwall Holdings. Walked through the getting-started material and answered questions about the admin console. The team is comfortable proceeding. Follow up in two weeks.",
+  "entities": [
+   "C064"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0186",
+  "doc_type": "distractor_feature",
+  "text": "Feature request logged by Vinehall Systems. They would like scheduled exports in their own timezone rather than UTC. Passed to product for triage. No commitment given on timing.",
+  "entities": [
+   "C001"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0187",
+  "doc_type": "distractor_training",
+  "text": "Training session delivered to Kestrel Analytics. Covered report building and sharing etiquette. Attendance was good and the recording has been made available to them.",
+  "entities": [
+   "C008"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0188",
+  "doc_type": "distractor_billing",
+  "text": "Billing query from Ironbark Systems. The finance contact asked why the invoice arrived three days later than usual. Confirmed this was a scheduling change on our side, not a change to their agreement. No action required.",
+  "entities": [
+   "C015"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0189",
+  "doc_type": "distractor_billing",
+  "text": "Billing query from Larkspur Industries. The finance contact asked why the invoice arrived three days later than usual. Confirmed this was a scheduling change on our side, not a change to their agreement. No action required.",
+  "entities": [
+   "C022"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0190",
+  "doc_type": "distractor_onboarding",
+  "text": "Onboarding check-in with Halcyon Consulting. Walked through the getting-started material and answered questions about the admin console. The team is comfortable proceeding. Follow up in two weeks.",
+  "entities": [
+   "C029"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0191",
+  "doc_type": "distractor_training",
+  "text": "Training session delivered to Templeton Holdings. Covered report building and sharing etiquette. Attendance was good and the recording has been made available to them.",
+  "entities": [
+   "C036"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0192",
+  "doc_type": "distractor_latency",
+  "text": "Performance complaint from Hollowell Industries. Users reported that dashboards were slow to load between 09:00 and 11:00 on Tuesday. Traced to a regional cache warm-up. Mitigated the same day and the customer confirmed recovery.",
+  "entities": [
+   "C043"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0193",
+  "doc_type": "distractor_billing",
+  "text": "Billing query from Ambleside Systems. The finance contact asked why the invoice arrived three days later than usual. Confirmed this was a scheduling change on our side, not a change to their agreement. No action required.",
+  "entities": [
+   "C050"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0194",
+  "doc_type": "distractor_renewal",
+  "text": "Renewal conversation with Eastgate Retail Group. The account is tracking to renew on the usual terms. Procurement asked for a copy of the security whitepaper, which has been sent.",
+  "entities": [
+   "C057"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0195",
+  "doc_type": "distractor_feature",
+  "text": "Feature request logged by Kirkwall Holdings. They would like scheduled exports in their own timezone rather than UTC. Passed to product for triage. No commitment given on timing.",
+  "entities": [
+   "C064"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0196",
+  "doc_type": "distractor_feature",
+  "text": "Feature request logged by Vinehall Systems. They would like scheduled exports in their own timezone rather than UTC. Passed to product for triage. No commitment given on timing.",
+  "entities": [
+   "C001"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0197",
+  "doc_type": "distractor_training",
+  "text": "Training session delivered to Kestrel Analytics. Covered report building and sharing etiquette. Attendance was good and the recording has been made available to them.",
+  "entities": [
+   "C008"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0198",
+  "doc_type": "distractor_renewal",
+  "text": "Renewal conversation with Ironbark Systems. The account is tracking to renew on the usual terms. Procurement asked for a copy of the security whitepaper, which has been sent.",
+  "entities": [
+   "C015"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0199",
+  "doc_type": "distractor_password",
+  "text": "Password reset for a user at Larkspur Industries. Identity verified over the phone against the account security questions. Reset link issued and confirmed used. No entitlement change was made as part of this ticket.",
+  "entities": [
+   "C022"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0200",
+  "doc_type": "distractor_billing",
+  "text": "Billing query from Halcyon Consulting. The finance contact asked why the invoice arrived three days later than usual. Confirmed this was a scheduling change on our side, not a change to their agreement. No action required.",
+  "entities": [
+   "C029"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0201",
+  "doc_type": "distractor_onboarding",
+  "text": "Onboarding check-in with Templeton Holdings. Walked through the getting-started material and answered questions about the admin console. The team is comfortable proceeding. Follow up in two weeks.",
+  "entities": [
+   "C036"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0202",
+  "doc_type": "distractor_latency",
+  "text": "Performance complaint from Hollowell Industries. Users reported that dashboards were slow to load between 09:00 and 11:00 on Tuesday. Traced to a regional cache warm-up. Mitigated the same day and the customer confirmed recovery.",
+  "entities": [
+   "C043"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0203",
+  "doc_type": "distractor_outage",
+  "text": "Incident note. Ambleside Systems was affected by the partial outage on the shared ingestion tier. Service was restored within the hour and a summary was shared with their team.",
+  "entities": [
+   "C050"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0204",
+  "doc_type": "distractor_training",
+  "text": "Training session delivered to Eastgate Retail Group. Covered report building and sharing etiquette. Attendance was good and the recording has been made available to them.",
+  "entities": [
+   "C057"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0205",
+  "doc_type": "distractor_onboarding",
+  "text": "Onboarding check-in with Kirkwall Holdings. Walked through the getting-started material and answered questions about the admin console. The team is comfortable proceeding. Follow up in two weeks.",
+  "entities": [
+   "C064"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0206",
+  "doc_type": "near_miss",
+  "text": "Note for the record: a request from Vinehall Systems concerning Customer Churn Project was withdrawn before approval. No access was ever granted and none is pending.",
+  "entities": [
+   "C001",
+   "R002"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0207",
+  "doc_type": "near_miss",
+  "text": "Access request -- DENIED. Drakemoor Labs asked whether they could be given access to Quarterly Revenue Report. The data owner reviewed the justification and declined; no entitlement was granted. The requester was pointed at an aggregated alternative instead. Ticket closed as rejected.",
+  "entities": [
+   "C002",
+   "R005"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0208",
+  "doc_type": "near_miss",
+  "text": "Note for the record: a request from Quarry Lane Industries concerning Pricing Model Folder was withdrawn before approval. No access was ever granted and none is pending.",
+  "entities": [
+   "C003",
+   "R008"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0209",
+  "doc_type": "near_miss",
+  "text": "Escalation summary. Ravensworth Labs chased a previous request covering Product Telemetry Dashboard. Confirmed with governance that the request remains refused and nothing has been provisioned. The account holds no entitlement to this asset.",
+  "entities": [
+   "C004",
+   "R011"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0210",
+  "doc_type": "near_miss",
+  "text": "Access request -- DENIED. Stonebridge Media asked whether they could be given access to Support Backlog Folder. The data owner reviewed the justification and declined; no entitlement was granted. The requester was pointed at an aggregated alternative instead. Ticket closed as rejected.",
+  "entities": [
+   "C005",
+   "R014"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0211",
+  "doc_type": "near_miss",
+  "text": "Access request -- DENIED. Yarrow Analytics asked whether they could be given access to Partner Pipeline Dataset. The data owner reviewed the justification and declined; no entitlement was granted. The requester was pointed at an aggregated alternative instead. Ticket closed as rejected.",
+  "entities": [
+   "C006",
+   "R017"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0212",
+  "doc_type": "near_miss",
+  "text": "Escalation summary. Quarry Lane Consulting chased a previous request covering Security Review Project. Confirmed with governance that the request remains refused and nothing has been provisioned. The account holds no entitlement to this asset.",
+  "entities": [
+   "C007",
+   "R020"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0213",
+  "doc_type": "near_miss",
+  "text": "Escalation summary. Kestrel Analytics chased a previous request covering Payroll Dataset. Confirmed with governance that the request remains refused and nothing has been provisioned. The account holds no entitlement to this asset.",
+  "entities": [
+   "C008",
+   "R003"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0214",
+  "doc_type": "near_miss",
+  "text": "Escalation summary. Cedar Point Labs chased a previous request covering Incident Postmortem Dataset. Confirmed with governance that the request remains refused and nothing has been provisioned. The account holds no entitlement to this asset.",
+  "entities": [
+   "C009",
+   "R006"
+  ],
+  "asserts": []
+ },
+ {
+  "doc_id": "DOC-0215",
+  "doc_type": "near_miss",
+  "text": "Escalation summary. Wildergate Retail Group chased a previous request covering Fraud Signals Report. Confirmed with governance that the request remains refused and nothing has been provisioned. The account holds no entitlement to this asset.",
+  "entities": [
+   "C011",
+   "R012"
+  ],
+  "asserts": []
+ }
+]
